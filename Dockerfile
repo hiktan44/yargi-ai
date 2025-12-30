@@ -1,18 +1,31 @@
-FROM python:3.12-slim
+# -------- BASE IMAGE (includes Chromium & deps) ----------------------------
+FROM mcr.microsoft.com/playwright/python:v1.53.0-noble
 
+# -------- Runtime setup ----------------------------------------------------
 WORKDIR /app
 
-# Install uv
-RUN pip install uv
+# Copy yargi-mcp project files only
+COPY yargi-mcp/ .
 
-# Copy project files
-COPY . .
+# Fast, deterministic install with `uv`
+RUN pip install --no-cache-dir uv && \
+    uv pip install --system --no-cache-dir . && \
+    uv pip install --system --no-cache-dir .[asgi,saas]
 
-# Install dependencies
-RUN uv pip install --system uvicorn
+# Cache buster - force rebuild
+ARG CACHE_BUST=202512310143
+RUN echo "Cache bust: $CACHE_BUST"
 
-# Expose port
+# -------- Environment ------------------------------------------------------
+ENV PYTHONUNBUFFERED=1
+ENV ENABLE_AUTH=true
+ENV PORT=8000
+
+# -------- Health check -----------------------------------------------------
+HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 \
+    CMD python -c "import httpx, os, sys; r=httpx.get(f'http://localhost:{os.getenv(\"PORT\",\"8000\")}/health'); sys.exit(0 if r.status_code==200 else 1)"
+
 EXPOSE 8000
 
-# Run the application
-CMD ["uvicorn", "backend.asgi_app:app", "--host", "0.0.0.0", "--port", "8000"]
+# -------- Entrypoint -------------------------------------------------------
+CMD ["uvicorn", "asgi_app:app", "--host", "0.0.0.0", "--port", "8000", "--proxy-headers"]
