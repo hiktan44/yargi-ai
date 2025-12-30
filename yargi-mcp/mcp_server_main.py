@@ -2138,7 +2138,7 @@ def main():
     logger.info(f"Logs will be written to: {LOG_FILE_PATH}")
     
     # Ensure Playwright browsers are installed
-    ensure_playwright_browsers()
+    # ensure_playwright_browsers() # Disabled to prevent startup timeout/crash (handled by Docker)
     
     try:
         app.run()
