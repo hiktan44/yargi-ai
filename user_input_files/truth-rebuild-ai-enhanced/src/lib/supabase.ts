@@ -91,7 +91,8 @@ export async function searchLegalCases(params: LegalSearchParams): Promise<Legal
   // 1. PYTHON BACKEND API ÇAĞRISI (DIRECT)
   try {
     console.log("Searching via Python Backend:", PYTHON_BACKEND_URL);
-    const response = await fetch(`${PYTHON_BACKEND_URL}/functions/v1/legal-search`, {
+    // Use new simplified endpoint
+    const response = await fetch(`${PYTHON_BACKEND_URL}/api/legal-search`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

@@ -195,25 +195,42 @@ async def debug_test():
     return {"message": "FastAPI routes working", "debug": True}
 
 # --- Supabase Edge Function Replacement Endpoint ---
-@app.post("/functions/v1/legal-search")
-async def search_legal_documents(payload: SearchQuery):
+@app.api_route("/api/legal-search", methods=["GET", "POST"])
+async def search_legal_documents_v2(request: Request, payload: SearchQuery = None):
     """
-    Frontend Compatibility Endpoint: Replaces Supabase 'legal-search' function.
-    Proxies requests directly to Bedesten and Yargitay clients.
+    Simpler endpoint for checking connectivity and performing search.
+    Support GET for browser test, POST for app.
     """
-    keyword = payload.query
-    logger.info(f"Compatibility Search Request received: {keyword}")
+    keyword = ""
+    if request.method == "POST":
+        if payload:
+            keyword = payload.query
+        else:
+            # Try parsing body manually if payload is None
+            try:
+                data = await request.json()
+                keyword = data.get("query", "")
+            except:
+                pass
+    else: # GET
+        keyword = request.query_params.get("query", "")
+
+    logger.info(f"Compatibility Search Request received (v2): {keyword}")
     
+    if not keyword:
+         return {"results": [], "message": "No query provided", "debug": "API is reachable"}
+
     results = []
 
     # 1. Bedesten Araması
     try:
-        if keyword:
-            logger.info("Bedesten API (via Python) search...")
-            bedesten_req = BedestenSearchRequest(arananKelime=keyword, pageNumber=1, pageSize=10)
-            bedesten_resp = await bedesten_client_instance.search_decisions(bedesten_req)
+        # Check client instance
+        if 'bedesten_client_instance' in globals() and bedesten_client_instance:
+             logger.info("Bedesten API (via Python) search...")
+             bedesten_req = BedestenSearchRequest(arananKelime=keyword, pageNumber=1, pageSize=10)
+             bedesten_resp = await bedesten_client_instance.search_decisions(bedesten_req)
             
-            if bedesten_resp and bedesten_resp.data and bedesten_resp.data.data:
+             if bedesten_resp and bedesten_resp.data and bedesten_resp.data.data:
                 for item in bedesten_resp.data.data:
                     results.append({
                         "id": str(item.id),
