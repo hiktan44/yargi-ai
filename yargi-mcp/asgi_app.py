@@ -22,7 +22,13 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.middleware.base import BaseHTTPMiddleware
 
 # Import the proper create_app function that includes all middleware
-from mcp_server_main import create_app
+from mcp_server_main import create_app, bedesten_client_instance, yargitay_client_instance
+from bedesten_mcp_module.models import BedestenSearchRequest
+from yargitay_mcp_module.models import YargitayDetailedSearchRequest
+from pydantic import BaseModel
+
+class SearchQuery(BaseModel):
+    query: str
 
 # Conditional auth-related imports (only if auth enabled)
 _auth_check = os.getenv("ENABLE_AUTH", "false").lower() == "true"
@@ -187,6 +193,73 @@ async def redirect_to_slash(request: Request):
 async def debug_test():
     """Debug endpoint to test if FastAPI routes work"""
     return {"message": "FastAPI routes working", "debug": True}
+
+# --- Supabase Edge Function Replacement Endpoint ---
+@app.post("/functions/v1/legal-search")
+async def search_legal_documents(payload: SearchQuery):
+    """
+    Frontend Compatibility Endpoint: Replaces Supabase 'legal-search' function.
+    Proxies requests directly to Bedesten and Yargitay clients.
+    """
+    keyword = payload.query
+    logger.info(f"Compatibility Search Request received: {keyword}")
+    
+    results = []
+
+    # 1. Bedesten Araması
+    try:
+        if keyword:
+            logger.info("Bedesten API (via Python) search...")
+            bedesten_req = BedestenSearchRequest(arananKelime=keyword, pageNumber=1, pageSize=10)
+            bedesten_resp = await bedesten_client_instance.search_decisions(bedesten_req)
+            
+            if bedesten_resp and bedesten_resp.data and bedesten_resp.data.data:
+                for item in bedesten_resp.data.data:
+                    results.append({
+                        "id": str(item.id),
+                        "title": f"Yargıtay Kararı - {item.daire}",
+                        "content": f"Esas: {item.esasNo}, Karar: {item.kararNo}, Tarih: {item.kararTarihi}",
+                        "url": getattr(item, 'document_url', None) or f"https://karararama.yargitay.gov.tr/getDokuman?id={item.id}",
+                        "source": "Bedesten",
+                        "metadata": {
+                                "daire": item.daire,
+                                "esasNo": item.esasNo,
+                                "kararNo": item.kararNo,
+                                "tarih": item.kararTarihi
+                        }
+                    })
+    except Exception as e:
+        logger.error(f"Bedesten Error: {e}")
+
+    # 2. Yargıtay Araması (Fallback)
+    if not results and keyword:
+        try:
+            logger.info("Yargitay Official API (Fallback) search...")
+            # Fallback durumunda daha geniş arama
+            yargitay_req = YargitayDetailedSearchRequest(arananKelime=keyword, pageNumber=1)
+            yargitay_resp = await yargitay_client_instance.search_detailed_decisions(yargitay_req)
+            
+            if yargitay_resp and yargitay_resp.data and yargitay_resp.data.data:
+                for item in yargitay_resp.data.data:
+                    results.append({
+                        "id": str(item.id),
+                        "title": f"Yargıtay Kararı - {item.daire}",
+                        "content": f"Esas: {item.esasNo}, Karar: {item.kararNo}, Tarih: {item.kararTarihi}",
+                        "url": getattr(item, 'document_url', None),
+                        "source": "Yargitay",
+                        "metadata": {
+                                "daire": item.daire,
+                                "esasNo": item.esasNo,
+                                "kararNo": item.kararNo,
+                                "tarih": item.kararTarihi
+                        }
+                    })
+        except Exception as e:
+            logger.error(f"Yargitay Error: {e}")
+
+    return {"results": results, "count": len(results)}
+
+# --- End Supabase Replacement ---
 
 # Clerk CORS proxy endpoints
 @app.api_route("/clerk-proxy/{path:path}", methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])
