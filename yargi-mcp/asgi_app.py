@@ -195,7 +195,6 @@ async def debug_test():
     return {"message": "FastAPI routes working", "debug": True}
 
 # --- Supabase Edge Function Replacement Endpoint ---
-# --- Supabase Edge Function Replacement Endpoint ---
 
 # Common logic for search
 async def _execute_search(keyword: str):
