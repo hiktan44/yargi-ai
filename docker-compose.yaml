@@ -18,7 +18,7 @@ services:
 
   backend:
     build:
-      context: ./backend
+      context: ./yargi-mcp
       dockerfile: Dockerfile
     ports:
       - "8000"
