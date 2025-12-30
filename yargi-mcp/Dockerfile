@@ -7,17 +7,17 @@ WORKDIR /app
 # Copy dependency manifests first for layer-cache
 COPY pyproject.toml poetry.lock* requirements*.txt* ./
 
+# Copy application source BEFORE installing (pyproject.toml needs modules to exist)
+COPY . .
+
 # Fast, deterministic install with `uv`
 RUN pip install --no-cache-dir uv && \
   uv pip install --system --no-cache-dir . && \
   uv pip install --system --no-cache-dir .[asgi,saas]
 
 # Cache buster - force rebuild
-ARG CACHE_BUST=202512310050
+ARG CACHE_BUST=202512310127
 RUN echo "Cache bust: $CACHE_BUST"
-
-# Copy application source
-COPY . .
 
 # -------- Environment ------------------------------------------------------
 ENV PYTHONUNBUFFERED=1
