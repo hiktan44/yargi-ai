@@ -1427,58 +1427,14 @@ async def get_sayistay_document_unified(
         raise
 
 # --- Application Shutdown Handling ---
+# Moved to lifespan context in asgi_app.py for better asyncio integration
+# This atexit handler can cause issues with uvicorn's own signal handling
+# and lead to "RuntimeError: Event loop is closed" or hanging containers.
 def perform_cleanup():
-    logger.info("MCP Server performing cleanup...")
-    try:
-        loop = asyncio.get_event_loop_policy().get_event_loop()
-        if loop.is_closed(): 
-            loop = asyncio.new_event_loop()
-            asyncio.set_event_loop(loop)
-    except RuntimeError: 
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
-    clients_to_close = [
-        globals().get('yargitay_client_instance'),
-        globals().get('danistay_client_instance'),
-        globals().get('emsal_client_instance'),
-        globals().get('uyusmazlik_client_instance'),
-        globals().get('anayasa_norm_client_instance'),
-        globals().get('anayasa_bireysel_client_instance'),
-        globals().get('anayasa_unified_client_instance'),
-        globals().get('kik_v2_client_instance'),
-        globals().get('rekabet_client_instance'),
-        globals().get('bedesten_client_instance'),
-        globals().get('sayistay_client_instance'),
-        globals().get('sayistay_unified_client_instance'),
-        globals().get('kvkk_client_instance'),
-        globals().get('bddk_client_instance')
-    ]
-    async def close_all_clients_async():
-        tasks = []
-        for client_instance in clients_to_close:
-            if client_instance and hasattr(client_instance, 'close_client_session') and callable(client_instance.close_client_session):
-                logger.info(f"Scheduling close for client session: {client_instance.__class__.__name__}")
-                tasks.append(client_instance.close_client_session())
-        if tasks:
-            results = await asyncio.gather(*tasks, return_exceptions=True)
-            for i, result in enumerate(results):
-                if isinstance(result, Exception):
-                    client_name = "Unknown Client"
-                    if i < len(clients_to_close) and clients_to_close[i] is not None:
-                        client_name = clients_to_close[i].__class__.__name__
-                    logger.error(f"Error closing client {client_name}: {result}")
-    try:
-        if loop.is_running(): 
-            asyncio.ensure_future(close_all_clients_async(), loop=loop)
-            logger.info("Client cleanup tasks scheduled on running event loop.")
-        else:
-            loop.run_until_complete(close_all_clients_async())
-            logger.info("Client cleanup tasks completed via run_until_complete.")
-    except Exception as e: 
-        logger.error(f"Error during atexit cleanup execution: {e}", exc_info=True)
-    logger.info("MCP Server atexit cleanup process finished.")
+    pass # Cleanup now handled by asgi_app lifespan
 
-atexit.register(perform_cleanup)
+# atexit.register(perform_cleanup) # Disabled to prevent interference
+
 
 # --- Health Check Tools ---
 @app.tool(
