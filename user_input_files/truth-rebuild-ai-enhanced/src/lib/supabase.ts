@@ -8,8 +8,8 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 // OpenAI API key for direct calls
 const OPENAI_API_KEY = "sk_1cab66888c57ffdf16c7263f0d8b101636cac13986635858";
 
-// Python Backend URL (Coolify)
-const PYTHON_BACKEND_URL = "http://tcgkgkkocs400ogs8ok8swcw.65.108.77.26.sslip.io";
+// Python Backend URL (Coolify - Production Domain)
+const PYTHON_BACKEND_URL = "https://api-yargi-ai.apps.seymata.com";
 
 export interface LegalSearchParams {
   searchQuery: string;
