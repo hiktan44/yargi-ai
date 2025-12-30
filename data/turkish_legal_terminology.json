@@ -1,0 +1,1507 @@
+{
+  "metadata": {
+    "title": "Türk Hukuk Terminolojisi Sözlüğü",
+    "description": "İngilizce-Amerikan hukuk terimlerinin Türk hukuk sistemindeki karşılıkları",
+    "version": "1.0",
+    "total_terms": 867,
+    "last_updated": "2025-11-04",
+    "categories": 15
+  },
+  "categories": {
+    "1. Genel Hukuk Terimleri": {
+      "description": "Temel hukuk kavramları ve genel terimler",
+      "terms": [
+        {
+          "turkish_term": "hukuk",
+          "english_term": "law",
+          "definition_tr": "Toplumda düzeni sağlayan, kişilerin davranışlarını düzenleyen kurallar bütünü",
+          "definition_en": "A system of rules that governs behavior and affairs in a society",
+          "context_tr": "Türk hukuk sistemi",
+          "context_en": "Legal system of Turkey",
+          "usage_example_tr": "Türk hukukunda Medeni Kanun temel kanunlardan biridir.",
+          "usage_example_en": "Civil Code is one of the fundamental laws in Turkish law."
+        },
+        {
+          "turkish_term": "adalet",
+          "english_term": "justice",
+          "definition_tr": "Hak ettiği şeyi vermek, hakkı teslim etmek",
+          "definition_en": "The quality of being fair and just",
+          "context_tr": "Temel hukuk ilkesi",
+          "context_en": "Fundamental legal principle",
+          "usage_example_tr": "Adalet mülkün temelidir.",
+          "usage_example_en": "Justice is the foundation of government."
+        },
+        {
+          "turkish_term": "hukuk devleti",
+          "english_term": "rule of law",
+          "definition_tr": "Yasaların devlet iktidarı üzerinde üstün olduğu, herkesin yasa önünde eşit olduğu devlet sistemi",
+          "definition_en": "A system of government where all people and institutions are subject to the law",
+          "context_tr": "Anayasa hukuku",
+          "context_en": "Constitutional law",
+          "usage_example_tr": "Demokratik devletler hukuk devleti ilkesine dayanır.",
+          "usage_example_en": "Democratic states are based on the rule of law."
+        },
+        {
+          "turkish_term": "hukuki işlem",
+          "english_term": "legal transaction",
+          "definition_tr": "Hukuki sonuç doğurmak amacıyla yapılan irade açıklaması",
+          "definition_en": "An expression of will intended to have legal effects",
+          "context_tr": "Medeni hukuk",
+          "context_en": "Civil law",
+          "usage_example_tr": "Sözleşmeler en yaygın hukuki işlemlerdir.",
+          "usage_example_en": "Contracts are the most common legal transactions."
+        },
+        {
+          "turkish_term": "hukuki sorumluluk",
+          "english_term": "civil liability",
+          "definition_tr": "Hukuki yükümlülüklerden doğan ve zararın telafi edilmesini gerektiren durum",
+          "definition_en": "Legal responsibility for damages that requires compensation",
+          "context_tr": "Borçlar hukuku",
+          "context_en": "Law of obligations",
+          "usage_example_tr": "Haksız fiilden doğan hukuki sorumluluk vardır.",
+          "usage_example_en": "Civil liability arises from wrongful acts."
+        }
+      ]
+    },
+    "2. Türk Hukuk Sistemi ve Yargı": {
+      "description": "Türk hukuk sistemi yapısı ve yargı kolları",
+      "terms": [
+        {
+          "turkish_term": "adli yargı",
+          "english_term": "judicial jurisdiction",
+          "definition_tr": "Kişiler arasındaki özel hukuki uyuşmazlıkları ve ceza davalarını gören yargı kolu",
+          "definition_en": "Judicial branch handling private legal disputes and criminal cases",
+          "context_tr": "Yargı sistemi",
+          "context_en": "Judicial system",
+          "usage_example_tr": "Adli yargıda Asliye Hukuk Mahkemeleri bulunur.",
+          "usage_example_en": "Civil Courts of First Instance exist in judicial jurisdiction."
+        },
+        {
+          "turkish_term": "idari yargı",
+          "english_term": "administrative jurisdiction",
+          "definition_tr": "İdare ile vatandaşlar arasındaki uyuşmazlıkları gören yargı kolu",
+          "definition_en": "Judicial branch handling disputes between administration and citizens",
+          "context_tr": "Yargı sistemi",
+          "context_en": "Judicial system",
+          "usage_example_tr": "İdari işlemlerden doğan uyuşmazlıklar idari yargıda çözülür.",
+          "usage_example_en": "Disputes arising from administrative acts are resolved in administrative jurisdiction."
+        },
+        {
+          "turkish_term": "Anayasa Mahkemesi",
+          "english_term": "Constitutional Court",
+          "definition_tr": "Kanunların Anayasaya uygunluğunu denetleyen ve temel hakları koruyan yüksek mahkeme",
+          "definition_en": "High court reviewing constitutionality of laws and protecting fundamental rights",
+          "context_tr": "Yüksek mahkeme",
+          "context_en": "High court",
+          "usage_example_tr": "Anayasa Mahkemesi'ne bireysel başvuru hakkı vardır.",
+          "usage_example_en": "There is a right of individual application to the Constitutional Court."
+        },
+        {
+          "turkish_term": "Yargıtay",
+          "english_term": "Supreme Court of Appeals",
+          "definition_tr": "Adli yargıda son inceleme merci olarak görev yapan yüksek mahkeme",
+          "definition_en": "Supreme court as final review authority in judicial jurisdiction",
+          "context_tr": "Yüksek mahkeme",
+          "context_en": "High court",
+          "usage_example_tr": "Yargıtay adli yargı kararlarının son inceleme mercii.",
+          "usage_example_en": "The Supreme Court of Appeals is the final review authority for judicial decisions."
+        },
+        {
+          "turkish_term": "Danıştay",
+          "english_term": "Council of State",
+          "definition_tr": "İdari yargının en yüksek mercii olan yüksek mahkeme",
+          "definition_en": "Supreme court of administrative jurisdiction",
+          "context_tr": "Yüksek mahkeme",
+          "context_en": "High court",
+          "usage_example_tr": "Danıştay idari yargının en yüksek mercii.",
+          "usage_example_en": "The Council of State is the highest authority of administrative jurisdiction."
+        },
+        {
+          "turkish_term": "Sulh Hukuk Mahkemesi",
+          "english_term": "Peace Court",
+          "definition_tr": "Asliye Hukuk Mahkemelerine göre daha sınırlı görevli olan ilk derece mahkemesi",
+          "definition_en": "First instance court with limited jurisdiction compared to Civil Courts",
+          "context_tr": "İlk derece mahkemeleri",
+          "context_en": "First instance courts",
+          "usage_example_tr": "Basit uyuşmazlıklar Sulh Hukuk Mahkemesi'nde çözülür.",
+          "usage_example_en": "Simple disputes are resolved in Peace Court."
+        },
+        {
+          "turkish_term": "Asliye Hukuk Mahkemesi",
+          "english_term": "Civil Court of First Instance",
+          "definition_tr": "Özel hukuk alanındaki ana dava türlerini gören ilk derece mahkemesi",
+          "definition_en": "First instance court handling main types of private law cases",
+          "context_tr": "İlk derece mahkemeleri",
+          "context_en": "First instance courts",
+          "usage_example_tr": "Borçlar hukuku davaları Asliye Hukuk Mahkemesi'nde açılır.",
+          "usage_example_en": "Law of obligations cases are filed in Civil Court of First Instance."
+        },
+        {
+          "turkish_term": "Asliye Ceza Mahkemesi",
+          "english_term": "Criminal Court of First Instance",
+          "definition_tr": "Suçlara ilişkin ilk derece ceza mahkemesi",
+          "definition_en": "First instance criminal court",
+          "context_tr": "İlk derece mahkemeleri",
+          "context_en": "First instance courts",
+          "usage_example_tr": "Çoğu suç Asliye Ceza Mahkemesi'nde yargılanır.",
+          "usage_example_en": "Most crimes are tried in Criminal Court of First Instance."
+        },
+        {
+          "turkish_term": "Ağır Ceza Mahkemesi",
+          "english_term": "Assize Court",
+          "definition_tr": "Ağır suçları yargılayan özel ceza mahkemesi",
+          "definition_en": "Special criminal court trying serious crimes",
+          "context_tr": "İlk derece mahkemeleri",
+          "context_en": "First instance courts",
+          "usage_example_tr": "Adam öldürme suçları Ağır Ceza Mahkemesi'nde yargılanır.",
+          "usage_example_en": "Homicide crimes are tried in Assize Court."
+        },
+        {
+          "turkish_term": "Bölge Adliye Mahkemesi",
+          "english_term": "Regional Court of Justice",
+          "definition_tr": "İlk derece mahkemelerinin kararlarına karşı istinaf başvurularını inceleyen mahkeme",
+          "definition_en": "Court examining appeals against decisions of first instance courts",
+          "context_tr": "İstinaf mahkemeleri",
+          "context_en": "Appeal courts",
+          "usage_example_tr": "İlk derece mahkeme kararlarına karşı Bölge Adliye Mahkemesi'ne itiraz edilebilir.",
+          "usage_example_en": "Decisions of first instance courts can be appealed to Regional Court of Justice."
+        }
+      ]
+    },
+    "3. Sivil Hukuk - Kişiler Hukuku": {
+      "description": "Kişiler hakları ve kişilik hukuku terimleri",
+      "terms": [
+        {
+          "turkish_term": "gerçek kişi",
+          "english_term": "natural person",
+          "definition_tr": "İnsan olan ve hukuki kişiliği olan varlık",
+          "definition_en": "A human being with legal personality",
+          "context_tr": "Kişiler hukuku",
+          "context_en": "Law of persons",
+          "usage_example_tr": "Her gerçek kişi hak ehliyetine sahiptir.",
+          "usage_example_en": "Every natural person has legal capacity."
+        },
+        {
+          "turkish_term": "tüzel kişi",
+          "english_term": "legal person / juridical person",
+          "definition_tr": "İnsan dışında hukuki kişiliğe sahip varlık",
+          "definition_en": "Non-human entity with legal personality",
+          "context_tr": "Kişiler hukuku",
+          "context_en": "Law of persons",
+          "usage_example_tr": "Şirketler tüzel kişidir.",
+          "usage_example_en": "Companies are legal persons."
+        },
+        {
+          "turkish_term": "hak ehliyeti",
+          "english_term": "capacity to have rights",
+          "definition_tr": "Haklara sahip olabilme yeteneği",
+          "definition_en": "Ability to hold rights",
+          "context_tr": "Kişiler hukuku",
+          "context_en": "Law of persons",
+          "usage_example_tr": "Herkes doğumdan itibaren hak ehliyetine sahiptir.",
+          "usage_example_en": "Everyone has legal capacity from birth."
+        },
+        {
+          "turkish_term": "fiil ehliyeti",
+          "english_term": "capacity to act",
+          "definition_tr": "Hukuki işlem yapabilme yeteneği",
+          "definition_en": "Ability to enter into legal transactions",
+          "context_tr": "Kişiler hukuku",
+          "context_en": "Law of persons",
+          "usage_example_tr": "Reşit olmayanların fiil ehliyeti sınırlıdır.",
+          "usage_example_en": "Minors have limited capacity to act."
+        },
+        {
+          "turkish_term": "erginlik",
+          "english_term": "majority",
+          "definition_tr": "Reşit olma, tam fiil ehliyetine sahip olma",
+          "definition_en": "Reaching the age of legal majority",
+          "context_tr": "Kişiler hukuku",
+          "context_en": "Law of persons",
+          "usage_example_tr": "18 yaşına erginlik kabul edilir.",
+          "usage_example_en": "18 years is considered the age of majority."
+        },
+        {
+          "turkish_term": "velayet",
+          "english_term": "parental authority",
+          "definition_tr": "Ebeveynin çocuğa karşı sahip olduğu hak ve yükümlülüklerin bütünü",
+          "definition_en": "Total rights and obligations of parents towards their child",
+          "context_tr": "Kişiler hukuku",
+          "context_en": "Law of persons",
+          "usage_example_tr": "Velayet reşit olmayan çocuklar üzerinde kullanılır.",
+          "usage_example_en": "Parental authority is exercised over minor children."
+        },
+        {
+          "turkish_term": "kısıtlama",
+          "english_term": "incapacity / restriction",
+          "definition_tr": "Kişinin fiil ehliyetine kanunen getirilen sınırlamalar",
+          "definition_en": "Legal limitations on a person's capacity to act",
+          "context_tr": "Kişiler hukuku",
+          "context_en": "Law of persons",
+          "usage_example_tr": "Akıl hastalığı kısıtlama sebebidir.",
+          "usage_example_en": "Mental illness is a ground for restriction."
+        },
+        {
+          "turkish_term": "ikametgah",
+          "english_term": "domicile",
+          "definition_tr": "Kişinin asıl olarak yaşamaya niyet ettiği yer",
+          "definition_en": "Place where a person intends to live permanently",
+          "context_tr": "Kişiler hukuku",
+          "context_en": "Law of persons",
+          "usage_example_tr": "İkametgâh yer değiştirme özgürlüğü vardır.",
+          "usage_example_en": "There is freedom to change domicile."
+        }
+      ]
+    },
+    "4. Eşya Hukuku": {
+      "description": "Eşya üzerindeki haklar ve eşya hukuku terimleri",
+      "terms": [
+        {
+          "turkish_term": "eşya",
+          "english_term": "property / thing",
+          "definition_tr": "İnsan üzerinde hakimiyet kurulabilen ve ekonomik değeri olan maddi varlık",
+          "definition_en": "Material object that can be controlled by humans and has economic value",
+          "context_tr": "Eşya hukuku",
+          "context_en": "Law of property",
+          "usage_example_tr": "Eşya mutlak haklara konu olur.",
+          "usage_example_en": "Property is subject to absolute rights."
+        },
+        {
+          "turkish_term": "mülkiyet",
+          "english_term": "ownership",
+          "definition_tr": "Eşya üzerinde en geniş hakkı veren ayni hak",
+          "definition_en": "Real right granting the broadest authority over property",
+          "context_tr": "Eşya hukuku",
+          "context_en": "Law of property",
+          "usage_example_tr": "Mülkiyet hakkı mutlaktır.",
+          "usage_example_en": "Ownership right is absolute."
+        },
+        {
+          "turkish_term": "zilyetlik",
+          "english_term": "possession",
+          "definition_tr": "Eşya üzerinde fiili hakimiyet",
+          "definition_en": "Factual control over property",
+          "context_tr": "Eşya hukuku",
+          "context_en": "Law of property",
+          "usage_example_tr": "Zilyetlik eşya üzerinde fiili hakimiyettir.",
+          "usage_example_en": "Possession is factual control over property."
+        },
+        {
+          "turkish_term": "ayni hak",
+          "english_term": "real right",
+          "definition_tr": "Eşyaya doğrudan doğruya yönelen ve herkese karşı ileri sürülebilen hak",
+          "definition_en": "Right directly relating to property and enforceable against everyone",
+          "context_tr": "Eşya hukuku",
+          "context_en": "Law of property",
+          "usage_example_tr": "Mülkiyet en önemli ayni haktır.",
+          "usage_example_en": "Ownership is the most important real right."
+        },
+        {
+          "turkish_term": "tapu sicili",
+          "english_term": "land registry",
+          "definition_tr": "Taşınmaz mallara ilişkin hakların kayıtlı olduğu resmî defter",
+          "definition_en": "Official register recording rights related to immovable property",
+          "context_tr": "Eşya hukuku",
+          "context_en": "Law of property",
+          "usage_example_tr": "Taşınmaz malların mülkiyeti tapu siciline kayıtlıdır.",
+          "usage_example_en": "Ownership of immovable property is recorded in the land registry."
+        },
+        {
+          "turkish_term": "rehin",
+          "english_term": "pledge / mortgage",
+          "definition_tr": "Borç güvencesi için eşya üzerinde kurulan sınırlı ayni hak",
+          "definition_en": "Limited real right established on property as security for debt",
+          "context_tr": "Eşya hukuku",
+          "context_en": "Law of property",
+          "usage_example_tr": "Rehin hakkı güvenlik amaçlı kurulur.",
+          "usage_example_en": "Pledge right is established for security purposes."
+        },
+        {
+          "turkish_term": "borçlu",
+          "english_term": "debtor",
+          "definition_tr": "Borcu olan kişi",
+          "definition_en": "Person who owes a debt",
+          "context_tr": "Eşya hukuku",
+          "context_en": "Law of property",
+          "usage_example_tr": "Borçlu eşyasını rehin verebilir.",
+          "usage_example_en": "Debtor can pledge their property."
+        },
+        {
+          "turkish_term": "alacaklı",
+          "english_term": "creditor",
+          "definition_tr": "Borcu olan kişiden alacağı olan kişi",
+          "definition_en": "Person to whom a debt is owed",
+          "context_tr": "Eşya hukuku",
+          "context_en": "Law of property",
+          "usage_example_tr": "Alacaklı rehin hakkına sahiptir.",
+          "usage_example_en": "Creditor has pledge right."
+        },
+        {
+          "turkish_term": "fer'i hak",
+          "english_term": "accessory right",
+          "definition_tr": "Asıl hakkın varlığı ile varlık kazanan hak",
+          "definition_en": "Right whose existence depends on the existence of a principal right",
+          "context_tr": "Eşya hukuku",
+          "context_en": "Law of property",
+          "usage_example_tr": "Rehin hakkı fer'i haktır.",
+          "usage_example_en": "Pledge right is an accessory right."
+        }
+      ]
+    },
+    "5. Borçlar Hukuku": {
+      "description": "Borç ilişkileri ve borçlar hukuku terimleri",
+      "terms": [
+        {
+          "turkish_term": "borç",
+          "english_term": "obligation / debt",
+          "definition_tr": "Borçlunun alacaklıya karşı edimini yerine getirme zorunluluğu",
+          "definition_en": "Obligation of debtor to perform to creditor",
+          "context_tr": "Borçlar hukuku",
+          "context_en": "Law of obligations",
+          "usage_example_tr": "Borç ilişkisi sözleşmeden doğabilir.",
+          "usage_example_en": "Obligation can arise from contract."
+        },
+        {
+          "turkish_term": "sözleşme",
+          "english_term": "contract",
+          "definition_tr": "İki veya daha çok kişi arasında borç doğuran hukuki işlem",
+          "definition_en": "Legal transaction creating obligations between two or more persons",
+          "context_tr": "Borçlar hukuku",
+          "context_en": "Law of obligations",
+          "usage_example_tr": "Sözleşme irade uyuşması ile kurulur.",
+          "usage_example_en": "Contract is established by meeting of minds."
+        },
+        {
+          "turkish_term": "ibra",
+          "english_term": "release / discharge",
+          "definition_tr": "Borçlunun borcundan kurtulması",
+          "definition_en": "Liberation of debtor from debt",
+          "context_tr": "Borçlar hukuku",
+          "context_en": "Law of obligations",
+          "usage_example_tr": "İbra ile borç sona erer.",
+          "usage_example_en": "Debt ends with release."
+        },
+        {
+          "turkish_term": "tazminat",
+          "english_term": "compensation / damages",
+          "definition_tr": "Zarar veren fiil nedeniyle uğranılan zararın karşılanması",
+          "definition_en": "Covering loss caused by harmful act",
+          "context_tr": "Borçlar hukuku",
+          "context_en": "Law of obligations",
+          "usage_example_tr": "Haksız fiilden tazminat istenebilir.",
+          "usage_example_en": "Compensation can be claimed for wrongful act."
+        },
+        {
+          "turkish_term": "ceza koşulu",
+          "english_term": "penalty clause",
+          "definition_tr": "Sözleşmeye uyulmaması halinde ödenecek miktar",
+          "definition_en": "Amount to be paid in case of non-compliance with contract",
+          "context_tr": "Borçlar hukuku",
+          "context_en": "Law of obligations",
+          "usage_example_tr": "Cezalı şart sözleşmede kararlaştırılır.",
+          "usage_example_en": "Penalty clause is agreed in contract."
+        },
+        {
+          "turkish_term": "ifa",
+          "english_term": "performance",
+          "definition_tr": "Borç konusu edimin yerine getirilmesi",
+          "definition_en": "Fulfillment of the object of obligation",
+          "context_tr": "Borçlar hukuku",
+          "context_en": "Law of obligations",
+          "usage_example_tr": "İfa borç ilişkisini sona erdirir.",
+          "usage_example_en": "Performance ends the obligation."
+        },
+        {
+          "turkish_term": "imkansızlık",
+          "english_term": "impossibility",
+          "definition_tr": "Borç konusu edimin yerine getirilemez hale gelmesi",
+          "definition_en": "Rendering fulfillment of obligation impossible",
+          "context_tr": "Borçlar hukuku",
+          "context_en": "Law of obligations",
+          "usage_example_tr": "İmkansızlık borcu ortadan kaldırır.",
+          "usage_example_en": "Impossibility removes the obligation."
+        },
+        {
+          "turkish_term": "fesih",
+          "english_term": "termination",
+          "definition_tr": "Sözleşmenin sona erdirilmesi",
+          "definition_en": "Ending of contract",
+          "context_tr": "Borçlar hukuku",
+          "context_en": "Law of obligations",
+          "usage_example_tr": "Ahdi bozma ile fesih bir olaydır.",
+          "usage_example_en": "Breaking the contract is termination."
+        },
+        {
+          "turkish_term": "İflas",
+          "english_term": "bankruptcy",
+          "definition_tr": "Borçlunun ödeme güçlüğü içinde bulunması durumu",
+          "definition_en": "State of debtor being unable to pay debts",
+          "context_tr": "Borçlar hukuku",
+          "context_en": "Law of obligations",
+          "usage_example_tr": "İflas durumunda konkordato talep edilebilir.",
+          "usage_example_en": "Composition can be requested in bankruptcy."
+        },
+        {
+          "turkish_term": "alacak",
+          "english_term": "claim / debt receivable",
+          "definition_tr": "Borçluya karşı sahip olunan hak",
+          "definition_en": "Right held against debtor",
+          "context_tr": "Borçlar hukuku",
+          "context_en": "Law of obligations",
+          "usage_example_tr": "Alacak temlik edilebilir.",
+          "usage_example_en": "Claim can be assigned."
+        }
+      ]
+    },
+    "6. Ticaret Hukuku": {
+      "description": "Ticari işlemler ve şirket hukuku terimleri",
+      "terms": [
+        {
+          "turkish_term": "anonim şirket",
+          "english_term": "joint stock company",
+          "definition_tr": "Sermayesi paylara bölünmüş, ortakları sınırlı sorumlu olan şirket türü",
+          "definition_en": "Company with capital divided into shares and limited liability shareholders",
+          "context_tr": "Ticaret hukuku",
+          "context_en": "Commercial law",
+          "usage_example_tr": "Anonim şirketler halka açılabilir.",
+          "usage_example_en": "Joint stock companies can go public."
+        },
+        {
+          "turkish_term": "limited şirket",
+          "english_term": "limited liability company",
+          "definition_tr": "Sınırlı sorumlu ortaklardan oluşan şirket türü",
+          "definition_en": "Company consisting of limited liability partners",
+          "context_tr": "Ticaret hukuku",
+          "context_en": "Commercial law",
+          "usage_example_tr": "Limited şirketler en yaygın şirket türlerindendir.",
+          "usage_example_en": "Limited liability companies are among the most common types of companies."
+        },
+        {
+          "turkish_term": "kollektif şirket",
+          "english_term": "general partnership",
+          "definition_tr": "Ortaklarının sorumluluğu sınırsız olan şirket türü",
+          "definition_en": "Type of company with unlimited liability of partners",
+          "context_tr": "Ticaret hukuku",
+          "context_en": "Commercial law",
+          "usage_example_tr": "Kollektif şirkette ortaklar şirket borçlarından kişisel olarak sorumludur.",
+          "usage_example_en": "In general partnership, partners are personally liable for company debts."
+        },
+        {
+          "turkish_term": "komandit şirket",
+          "english_term": "limited partnership",
+          "definition_tr": "Bazı ortakları sınırlı, bazıları sınırsız sorumlu olan şirket türü",
+          "definition_en": "Type of company where some partners have limited, others unlimited liability",
+          "context_tr": "Ticaret hukuku",
+          "context_en": "Commercial law",
+          "usage_example_tr": "Komandit şirkette komanditer ortak sınırlı sorumludur.",
+          "usage_example_en": "In limited partnership, limited partners have limited liability."
+        },
+        {
+          "turkish_term": "ticari işletme",
+          "english_term": "commercial enterprise",
+          "definition_tr": "Ekonomik faaliyet gösteren örgütlenmiş işletme",
+          "definition_en": "Organized enterprise engaged in economic activity",
+          "context_tr": "Ticaret hukuku",
+          "context_en": "Commercial law",
+          "usage_example_tr": "Ticari işletme Ticaret Kanunu kapsamındadır.",
+          "usage_example_en": "Commercial enterprise falls under Commercial Code."
+        },
+        {
+          "turkish_term": "ticaret unvanı",
+          "english_term": "trade name",
+          "definition_tr": "Ticari işletmenin adı",
+          "definition_en": "Name of commercial enterprise",
+          "context_tr": "Ticaret hukuku",
+          "context_en": "Commercial law",
+          "usage_example_tr": "Her ticari işletmenin ticaret unvanı olmalıdır.",
+          "usage_example_en": "Every commercial enterprise must have a trade name."
+        },
+        {
+          "turkish_term": "ticaret sicili",
+          "english_term": "trade registry",
+          "definition_tr": "Ticari işletmelerin kayıtlarının tutulduğu resmî defter",
+          "definition_en": "Official register where commercial enterprises are recorded",
+          "context_tr": "Ticaret hukuku",
+          "context_en": "Commercial law",
+          "usage_example_tr": "Şirketler ticaret siciline kayıt olmak zorundadır.",
+          "usage_example_en": "Companies must be registered in the trade registry."
+        },
+        {
+          "turkish_term": "genel kurul",
+          "english_term": "general assembly",
+          "definition_tr": "Şirket ortaklarının oluşturduğu en yüksek organ",
+          "definition_en": "Highest organ composed of company partners",
+          "context_tr": "Ticaret hukuku",
+          "context_en": "Commercial law",
+          "usage_example_tr": "Genel kurul şirket kararlarını alır.",
+          "usage_example_en": "General assembly makes company decisions."
+        },
+        {
+          "turkish_term": "yönetim kurulu",
+          "english_term": "board of directors",
+          "definition_tr": "Şirketin yönetim ve temsil organı",
+          "definition_en": "Management and representation organ of company",
+          "context_tr": "Ticaret hukuku",
+          "context_en": "Commercial law",
+          "usage_example_tr": "Yönetim kurulu anonim şirketin zorunlu organıdır.",
+          "usage_example_en": "Board of directors is the mandatory organ of joint stock company."
+        },
+        {
+          "turkish_term": "müdür",
+          "english_term": "director / manager",
+          "definition_tr": "Limited şirketin yönetim ve temsil organı",
+          "definition_en": "Management and representation organ of limited company",
+          "context_tr": "Ticaret hukuku",
+          "context_en": "Commercial law",
+          "usage_example_tr": "Limited şirkette müdürler şirketi temsil eder.",
+          "usage_example_en": "In limited company, directors represent the company."
+        }
+      ]
+    },
+    "7. İş Hukuku": {
+      "description": "İş ilişkileri ve iş hukuku terimleri",
+      "terms": [
+        {
+          "turkish_term": "iş hukuku",
+          "english_term": "labor law",
+          "definition_tr": "İşçi ve işveren arasındaki ilişkileri düzenleyen hukuk dalı",
+          "definition_en": "Branch of law regulating relations between employee and employer",
+          "context_tr": "Özel hukuk",
+          "context_en": "Private law",
+          "usage_example_tr": "İş hukuku İş Kanunu ile düzenlenir.",
+          "usage_example_en": "Labor law is regulated by Labor Code."
+        },
+        {
+          "turkish_term": "işçi",
+          "english_term": "employee / worker",
+          "definition_tr": "İşverene bağımlı olarak çalışan kişi",
+          "definition_en": "Person working under dependency to employer",
+          "context_tr": "İş hukuku",
+          "context_en": "Labor law",
+          "usage_example_tr": "İşçi hizmet akdi ile çalışır.",
+          "usage_example_en": "Employee works under employment contract."
+        },
+        {
+          "turkish_term": "işveren",
+          "english_term": "employer",
+          "definition_tr": "İşçi çalıştıran gerçek veya tüzel kişi",
+          "definition_en": "Real or legal person employing workers",
+          "context_tr": "İş hukuku",
+          "context_en": "Labor law",
+          "usage_example_tr": "İşveren işçiye ücret ödemekle yükümlüdür.",
+          "usage_example_en": "Employer is obliged to pay wage to employee."
+        },
+        {
+          "turkish_term": "hizmet akdi",
+          "english_term": "employment contract",
+          "definition_tr": "İşçinin iş görme, işverenin ücret ödeme yükümlülüğü doğuran sözleşme",
+          "definition_en": "Contract creating obligation for employee to work and employer to pay wage",
+          "context_tr": "İş hukuku",
+          "context_en": "Labor law",
+          "usage_example_tr": "Hizmet akdi yazılı yapılmalıdır.",
+          "usage_example_en": "Employment contract should be in writing."
+        },
+        {
+          "turkish_term": "iş ilişkisi",
+          "english_term": "employment relationship",
+          "definition_tr": "İşçi ve işveren arasındaki bağımlılık ilişkisi",
+          "definition_en": "Dependency relationship between employee and employer",
+          "context_tr": "İş hukuku",
+          "context_en": "Labor law",
+          "usage_example_tr": "İş ilişkisi bağımlılık unsuru ile karakterize edilir.",
+          "usage_example_en": "Employment relationship is characterized by dependency element."
+        },
+        {
+          "turkish_term": "alt işveren",
+          "english_term": "subcontractor",
+          "definition_tr": "Asıl işverenden iş alarak işçi çalıştıran işveren",
+          "definition_en": "Employer who takes work from main contractor and employs workers",
+          "context_tr": "İş hukuku",
+          "context_en": "Labor law",
+          "usage_example_tr": "Alt işveren işçilerinin hakları korunur.",
+          "usage_example_en": "Rights of subcontractor workers are protected."
+        },
+        {
+          "turkish_term": "işyeri",
+          "english_term": "workplace",
+          "definition_tr": "İşverenin işin yapıldığı yeri",
+          "definition_en": "Place where work is carried out by employer",
+          "context_tr": "İş hukuku",
+          "context_en": "Labor law",
+          "usage_example_tr": "İşyeri değişikliği işçinin rızasıyla olur.",
+          "usage_example_en": "Workplace change requires employee's consent."
+        },
+        {
+          "turkish_term": "ücret",
+          "english_term": "wage / salary",
+          "definition_tr": "İşçinin emeği karşılığında aldığı bedel",
+          "definition_en": "Payment received by employee in exchange for labor",
+          "context_tr": "İş hukuku",
+          "context_en": "Labor law",
+          "usage_example_tr": "Ücret asgari ücretten az olamaz.",
+          "usage_example_en": "Wage cannot be less than minimum wage."
+        },
+        {
+          "turkish_term": "iş kazası",
+          "english_term": "industrial accident",
+          "definition_tr": "İşyerinde veya iş dolayısıyla meydana gelen kaza",
+          "definition_en": "Accident occurring in workplace or due to work",
+          "context_tr": "İş hukuku",
+          "context_en": "Labor law",
+          "usage_example_tr": "İş kazası SGK kapsamındadır.",
+          "usage_example_en": "Industrial accident is covered by social security."
+        },
+        {
+          "turkish_term": "fesih",
+          "english_term": "termination",
+          "definition_tr": "İş sözleşmesinin sona erdirilmesi",
+          "definition_en": "Ending of employment contract",
+          "context_tr": "İş hukuku",
+          "context_en": "Labor law",
+          "usage_example_tr": "Fesih bildirimi süreli olmalıdır.",
+          "usage_example_en": "Termination notice should be with notice period."
+        }
+      ]
+    },
+    "8. Aile Hukuku": {
+      "description": "Aile ilişkileri ve aile hukuku terimleri",
+      "terms": [
+        {
+          "turkish_term": "evlenme",
+          "english_term": "marriage",
+          "definition_tr": "Erkek ve kadın arasında kurulan yasal birliktelik",
+          "definition_en": "Legal union between man and woman",
+          "context_tr": "Aile hukuku",
+          "context_en": "Family law",
+          "usage_example_tr": "Evlenme Medeni Kanun ile düzenlenir.",
+          "usage_example_en": "Marriage is regulated by Civil Code."
+        },
+        {
+          "turkish_term": "evlat edinme",
+          "english_term": "adoption",
+          "definition_tr": "Başkasının çocuğunu kendi çocuğu sayma",
+          "definition_en": "Treating another's child as one's own child",
+          "context_tr": "Aile hukuku",
+          "context_en": "Family law",
+          "usage_example_tr": "Evlat edinme mahkeme kararı ile yapılır.",
+          "usage_example_en": "Adoption is done by court decision."
+        },
+        {
+          "turkish_term": "hısımlık",
+          "english_term": "kinship",
+          "definition_tr": "Kan bağı, evlilik veya evlat edinme ile kurulan yakınlık",
+          "definition_en": "Closeness established by blood, marriage or adoption",
+          "context_tr": "Aile hukuku",
+          "context_en": "Family law",
+          "usage_example_tr": "Hısımlık hukuki sonuçlar doğurur.",
+          "usage_example_en": "Kinship produces legal consequences."
+        },
+        {
+          "turkish_term": "boşanma",
+          "english_term": "divorce",
+          "definition_tr": "Evlilik bağının sona erdirilmesi",
+          "definition_en": "Ending of marriage bond",
+          "context_tr": "Aile hukuku",
+          "context_en": "Family law",
+          "usage_example_tr": "Boşanma mahkeme kararı ile yapılır.",
+          "usage_example_en": "Divorce is done by court decision."
+        },
+        {
+          "turkish_term": "naif",
+          "english_term": "incompetent",
+          "definition_tr": "Kısıtlı fiil ehliyetine sahip kişi",
+          "definition_en": "Person with limited capacity to act",
+          "context_tr": "Aile hukuku",
+          "context_en": "Family law",
+          "usage_example_tr": "Naif kıyıya vasi atanır.",
+          "usage_example_en": "Curator is appointed to incompetent person."
+        },
+        {
+          "turkish_term": "velayet hakkı",
+          "english_term": "parental custody",
+          "definition_tr": "Ebeveynin çocuk üzerindeki hak ve yetkilerinin bütünü",
+          "definition_en": "Total rights and authorities of parents over child",
+          "context_tr": "Aile hukuku",
+          "context_en": "Family law",
+          "usage_example_tr": "Velayet hakkı ebeveynde kalmalıdır.",
+          "usage_example_en": "Parental custody should remain with parents."
+        },
+        {
+          "turkish_term": "kayyım",
+          "english_term": "curator / guardian",
+          "definition_tr": "Naif kişinin işlerini yöneten kişi",
+          "definition_en": "Person managing affairs of incompetent person",
+          "context_tr": "Aile hukuku",
+          "context_en": "Family law",
+          "usage_example_tr": "Kayyım tayini mahkeme kararı ile olur.",
+          "usage_example_en": "Appointment of curator is by court decision."
+        },
+        {
+          "turkish_term": "nişan",
+          "english_term": "engagement",
+          "definition_tr": "Evlenme niyetiyle kurulan bağ",
+          "definition_en": "Bond established with intention to marry",
+          "context_tr": "Aile hukuku",
+          "context_en": "Family law",
+          "usage_example_tr": "Nişan bozulursa zarar tazmin edilir.",
+          "usage_example_en": "If engagement is broken, damage is compensated."
+        },
+        {
+          "turkish_term": "düğün",
+          "english_term": "wedding",
+          "definition_tr": "Evlenme töreni",
+          "definition_en": "Marriage ceremony",
+          "context_tr": "Aile hukuku",
+          "context_en": "Family law",
+          "usage_example_tr": "Düğün resmi olarak yapılmalıdır.",
+          "usage_example_en": "Wedding should be done officially."
+        },
+        {
+          "turkish_term": "mal rejimi",
+          "english_term": "property regime",
+          "definition_tr": "Evlilikte mallara ilişkin düzen",
+          "definition_en": "Regulation regarding property in marriage",
+          "context_tr": "Aile hukuku",
+          "context_en": "Family law",
+          "usage_example_tr": "Mal rejimi sözleşmesi yapılabilir.",
+          "usage_example_en": "Property regime contract can be made."
+        }
+      ]
+    },
+    "9. Ceza Hukuku": {
+      "description": "Suç ve ceza terimleri",
+      "terms": [
+        {
+          "turkish_term": "ceza hukuku",
+          "english_term": "criminal law",
+          "definition_tr": "Suçları ve cezaları düzenleyen hukuk dalı",
+          "definition_en": "Branch of law regulating crimes and punishments",
+          "context_tr": "Kamu hukuku",
+          "context_en": "Public law",
+          "usage_example_tr": "Ceza hukuku Ceza Kanunu ile düzenlenir.",
+          "usage_example_en": "Criminal law is regulated by Criminal Code."
+        },
+        {
+          "turkish_term": "suç",
+          "english_term": "crime",
+          "definition_tr": "Kanunun cezalandırdığı fiil",
+          "definition_en": "Act punished by law",
+          "context_tr": "Ceza hukuku",
+          "context_en": "Criminal law",
+          "usage_example_tr": "Suç işleyen kişi cezalandırılır.",
+          "usage_example_en": "Person who commits crime is punished."
+        },
+        {
+          "turkish_term": "ceza",
+          "english_term": "punishment / penalty",
+          "definition_tr": "Suç işleyen kişiye verilen yaptırım",
+          "definition_en": "Sanction given to person who commits crime",
+          "context_tr": "Ceza hukuku",
+          "context_en": "Criminal law",
+          "usage_example_tr": "Cezalar Türk Ceza Kanunu'nda belirtilir.",
+          "usage_example_en": "Punishments are specified in Turkish Criminal Code."
+        },
+        {
+          "turkish_term": "hapis cezası",
+          "english_term": "imprisonment",
+          "definition_tr": "Özgürlük bağlayıcı ceza",
+          "definition_en": "Liberty-restricting punishment",
+          "context_tr": "Ceza hukuku",
+          "context_en": "Criminal law",
+          "usage_example_tr": "Ağır suçlar hapis cezası gerektirir.",
+          "usage_example_en": "Serious crimes require imprisonment."
+        },
+        {
+          "turkish_term": "para cezası",
+          "english_term": "fine",
+          "definition_tr": "Para ile ödenen ceza",
+          "definition_en": "Punishment paid with money",
+          "context_tr": "Ceza hukuku",
+          "context_en": "Criminal law",
+          "usage_example_tr": "Hafif suçlar para cezası ile cezalandırılabilir.",
+          "usage_example_en": "Minor crimes can be punished with fine."
+        },
+        {
+          "turkish_term": "teslim",
+          "english_term": "surrender / delivery",
+          "definition_tr": "Sanığı mahkemeye teslim etme",
+          "definition_en": "Handing over accused to court",
+          "context_tr": "Ceza hukuku",
+          "context_en": "Criminal law",
+          "usage_example_tr": "Sanık teslim olur.",
+          "usage_example_en": "Accused surrenders."
+        },
+        {
+          "turkish_term": "gözaltı",
+          "english_term": "detention / custody",
+          "definition_tr": "Şüphelinin polis gözetiminde tutulması",
+          "definition_en": "Holding suspect under police supervision",
+          "context_tr": "Ceza hukuku",
+          "context_en": "Criminal law",
+          "usage_example_tr": "Gözaltı süresi kanunda belirtilmiştir.",
+          "usage_example_en": "Detention period is specified in law."
+        },
+        {
+          "turkish_term": "tutuklama",
+          "english_term": "pre-trial detention",
+          "definition_tr": "Sanığın yargılama süresince hapsedilmesi",
+          "definition_en": "Imprisonment of accused during trial period",
+          "context_tr": "Ceza hukuku",
+          "context_en": "Criminal law",
+          "usage_example_tr": "Tutuklama kural olarak serbesttir.",
+          "usage_example_en": "Pre-trial detention is generally prohibited."
+        },
+        {
+          "turkish_term": "iddianame",
+          "english_term": "indictment",
+          "definition_tr": "Savcının sanık hakkında düzenlediği resmî belge",
+          "definition_en": "Official document prepared by prosecutor regarding accused",
+          "context_tr": "Ceza hukuku",
+          "context_en": "Criminal law",
+          "usage_example_tr": "İddianame mahkemeye sunulur.",
+          "usage_example_en": "Indictment is submitted to court."
+        },
+        {
+          "turkish_term": "beraat",
+          "english_term": "acquittal",
+          "definition_tr": "Sanığın suçsuz bulunması",
+          "definition_en": "Finding accused not guilty",
+          "context_tr": "Ceza hukuku",
+          "context_en": "Criminal law",
+          "usage_example_tr": "Beraat kararı beraat etmek fiili ile verilir.",
+          "usage_example_en": "Acquittal decision is given with act of being acquitted."
+        }
+      ]
+    },
+    "10. Usul Hukuku": {
+      "description": "Yargılama usulleri ve usul hukuku terimleri",
+      "terms": [
+        {
+          "turkish_term": "usul hukuku",
+          "english_term": "procedural law",
+          "definition_tr": "Yargılama usullerini düzenleyen hukuk dalı",
+          "definition_en": "Branch of law regulating judicial procedures",
+          "context_tr": "Kamu hukuku",
+          "context_en": "Public law",
+          "usage_example_tr": "Usul hukuku Hukuk Usulü Muhakemeleri Kanunu ile düzenlenir.",
+          "usage_example_en": "Procedural law is regulated by Civil Procedure Code."
+        },
+        {
+          "turkish_term": "dava",
+          "english_term": "lawsuit / action",
+          "definition_tr": "Mahkeme önünde hak arama talebi",
+          "definition_en": "Demand for legal remedy before court",
+          "context_tr": "Usul hukuku",
+          "context_en": "Procedural law",
+          "usage_example_tr": "Dava açmak hak arama yollarındandır.",
+          "usage_example_en": "Filing lawsuit is one of the ways to seek rights."
+        },
+        {
+          "turkish_term": "davacı",
+          "english_term": "plaintiff",
+          "definition_tr": "Dava açan taraf",
+          "definition_en": "Party filing the lawsuit",
+          "context_tr": "Usul hukuku",
+          "context_en": "Procedural law",
+          "usage_example_tr": "Davacı davasını ispatlamalıdır.",
+          "usage_example_en": "Plaintiff must prove their case."
+        },
+        {
+          "turkish_term": "davalı",
+          "english_term": "defendant",
+          "definition_tr": "Kendisine dava açılan taraf",
+          "definition_en": "Party against whom lawsuit is filed",
+          "context_tr": "Usul hukuku",
+          "context_en": "Procedural law",
+          "usage_example_tr": "Davalı savunmasını yapmalıdır.",
+          "usage_example_en": "Defendant must make their defense."
+        },
+        {
+          "turkish_term": "hâkim",
+          "english_term": "judge",
+          "definition_tr": "Davaları yargılayan kişi",
+          "definition_en": "Person judging lawsuits",
+          "context_tr": "Usul hukuku",
+          "context_en": "Procedural law",
+          "usage_example_tr": "Hâkim karar verir.",
+          "usage_example_en": "Judge renders decision."
+        },
+        {
+          "turkish_term": "avukat",
+          "english_term": "attorney / lawyer",
+          "definition_tr": "Vekaletnamesi ile dava takip eden kişi",
+          "definition_en": "Person pursuing lawsuit with power of attorney",
+          "context_tr": "Usul hukuku",
+          "context_en": "Procedural law",
+          "usage_example_tr": "Avukat müvekkilini temsil eder.",
+          "usage_example_en": "Attorney represents client."
+        },
+        {
+          "turkish_term": "delil",
+          "english_term": "evidence",
+          "definition_tr": "Hakikati ortaya çıkaracak belge veya bilgi",
+          "definition_en": "Document or information revealing truth",
+          "context_tr": "Usul hukuku",
+          "context_en": "Procedural law",
+          "usage_example_tr": "Delil sunmak tarafların görevidir.",
+          "usage_example_en": "Presenting evidence is duty of parties."
+        },
+        {
+          "turkish_term": "yargılama gideri",
+          "english_term": "judicial expenses",
+          "definition_tr": "Yargılama sırasında yapılan masraflar",
+          "definition_en": "Expenses incurred during trial",
+          "context_tr": "Usul hukuku",
+          "context_en": "Procedural law",
+          "usage_example_tr": "Yargılama gideri kaybeden tarafa aittir.",
+          "usage_example_en": "Judicial expenses belong to losing party."
+        },
+        {
+          "turkish_term": "tebliğ",
+          "english_term": "notification",
+          "definition_tr": "Resmî belgelerin karşı tarafa ulaştırılması",
+          "definition_en": "Delivering official documents to other party",
+          "context_tr": "Usul hukuku",
+          "context_en": "Procedural law",
+          "usage_example_tr": "Tebliğ usulüne uygun yapılmalıdır.",
+          "usage_example_en": "Notification should be done properly."
+        },
+        {
+          "turkish_term": "dosya",
+          "english_term": "file / case record",
+          "definition_tr": "Davalara ilişkin belgelerin toplandığı klasör",
+          "definition_en": "Folder where case-related documents are collected",
+          "context_tr": "Usul hukuku",
+          "context_en": "Procedural law",
+          "usage_example_tr": "Dosya mahkeme veznesinde tutulur.",
+          "usage_example_en": "File is kept in court registry."
+        }
+      ]
+    },
+    "11. Anayasa Hukuku": {
+      "description": "Devlet yapısı ve anayasa hukuku terimleri",
+      "terms": [
+        {
+          "turkish_term": "anayasa",
+          "english_term": "constitution",
+          "definition_tr": "Devletin temel kuruluşunu düzenleyen en üst kanun",
+          "definition_en": "Highest law regulating basic structure of state",
+          "context_tr": "Anayasa hukuku",
+          "context_en": "Constitutional law",
+          "usage_example_tr": "Anayasa devletin temel kanunudur.",
+          "usage_example_en": "Constitution is the fundamental law of state."
+        },
+        {
+          "turkish_term": "milletvekili",
+          "english_term": "member of parliament",
+          "definition_tr": "TBMM'ye seçilen temsilci",
+          "definition_en": "Representative elected to parliament",
+          "context_tr": "Anayasa hukuku",
+          "context_en": "Constitutional law",
+          "usage_example_tr": "Milletvekili TBMM üyesidir.",
+          "usage_example_en": "Member of parliament is parliament member."
+        },
+        {
+          "turkish_term": "yasama",
+          "english_term": "legislative",
+          "definition_tr": "Yasa yapma işlevi",
+          "definition_en": "Function of making laws",
+          "context_tr": "Anayasa hukuku",
+          "context_en": "Constitutional law",
+          "usage_example_tr": "Yasama organı TBMM'dir.",
+          "usage_example_en": "Legislative organ is parliament."
+        },
+        {
+          "turkish_term": "yürütme",
+          "english_term": "executive",
+          "definition_tr": "Yasaları uygulama işlevi",
+          "definition_en": "Function of implementing laws",
+          "context_tr": "Anayasa hukuku",
+          "context_en": "Constitutional law",
+          "usage_example_tr": "Yürütme organı Cumhurbaşkanlığı'dır.",
+          "usage_example_en": "Executive organ is Presidency."
+        },
+        {
+          "turkish_term": "yargı",
+          "english_term": "judicial",
+          "definition_tr": "Hukuk uyuşmazlıklarını çözme işlevi",
+          "definition_en": "Function of resolving legal disputes",
+          "context_tr": "Anayasa hukuku",
+          "context_en": "Constitutional law",
+          "usage_example_tr": "Yargı bağımsızdır.",
+          "usage_example_en": "Judiciary is independent."
+        },
+        {
+          "turkish_term": "güçler ayrılığı",
+          "english_term": "separation of powers",
+          "definition_tr": "Yasama, yürütme ve yargı güçlerinin birbirinden ayrılması",
+          "definition_en": "Separation of legislative, executive and judicial powers from each other",
+          "context_tr": "Anayasa hukuku",
+          "context_en": "Constitutional law",
+          "usage_example_tr": "Güçler ayrılığı demokrasinin temelidir.",
+          "usage_example_en": "Separation of powers is foundation of democracy."
+        },
+        {
+          "turkish_term": "temel haklar",
+          "english_term": "fundamental rights",
+          "definition_tr": "Anayasa ile güvence altına alınan haklar",
+          "definition_en": "Rights guaranteed by constitution",
+          "context_tr": "Anayasa hukuku",
+          "context_en": "Constitutional law",
+          "usage_example_tr": "Temel haklar herkese tanınır.",
+          "usage_example_en": "Fundamental rights are granted to everyone."
+        },
+        {
+          "turkish_term": "kamu özgürlükleri",
+          "english_term": "public freedoms",
+          "definition_tr": "Devlet müdahalesine karşı korunan alanlar",
+          "definition_en": "Areas protected from state intervention",
+          "context_tr": "Anayasa hukuku",
+          "context_en": "Constitutional law",
+          "usage_example_tr": "Kamu özgürlükleri sınırsız değildir.",
+          "usage_example_en": "Public freedoms are not unlimited."
+        },
+        {
+          "turkish_term": "federatif sistem",
+          "english_term": "federal system",
+          "definition_tr": "Yetkilerin merkez ve eyaletler arasında paylaşıldığı devlet yapısı",
+          "definition_en": "State structure where powers are shared between center and provinces",
+          "context_tr": "Anayasa hukuku",
+          "context_en": "Constitutional law",
+          "usage_example_tr": "Türkiye birimli devlet sistemine sahiptir.",
+          "usage_example_en": "Turkey has unitary state system."
+        },
+        {
+          "turkish_term": "parlamenter sistem",
+          "english_term": "parliamentary system",
+          "definition_tr": "Yürütme gücünün parlamentosu'ndan çıktığı sistem",
+          "definition_en": "System where executive power emerges from parliament",
+          "context_tr": "Anayasa hukuku",
+          "context_en": "Constitutional law",
+          "usage_example_tr": "Parlamenter sistemde sorumluluk kolektiftir.",
+          "usage_example_en": "In parliamentary system, responsibility is collective."
+        }
+      ]
+    },
+    "12. İdari Hukuk": {
+      "description": "Devlet idaresi ve idari hukuk terimleri",
+      "terms": [
+        {
+          "turkish_term": "idare",
+          "english_term": "administration",
+          "definition_tr": "Devletin kamu hizmetini yürüten kısmı",
+          "definition_en": "Part of state carrying out public service",
+          "context_tr": "İdari hukuk",
+          "context_en": "Administrative law",
+          "usage_example_tr": "İdare hukuka bağlıdır.",
+          "usage_example_en": "Administration is bound to law."
+        },
+        {
+          "turkish_term": "idari işlem",
+          "english_term": "administrative act",
+          "definition_tr": "İdarenin tek taraflı hukuki işlemi",
+          "definition_en": "Unilateral legal act of administration",
+          "context_tr": "İdari hukuk",
+          "context_en": "Administrative law",
+          "usage_example_tr": "İdari işlem iptal edilebilir.",
+          "usage_example_en": "Administrative act can be annulled."
+        },
+        {
+          "turkish_term": "kamu hizmeti",
+          "english_term": "public service",
+          "definition_tr": "Devletin yurttaşlara sunduğu hizmetler",
+          "definition_en": "Services provided by state to citizens",
+          "context_tr": "İdari hukuk",
+          "context_en": "Administrative law",
+          "usage_example_tr": "Eğitim kamu hizmetidir.",
+          "usage_example_en": "Education is a public service."
+        },
+        {
+          "turkish_term": "merkezi idare",
+          "english_term": "central administration",
+          "definition_tr": "Merkezi hükümetin idare organları",
+          "definition_en": "Administrative organs of central government",
+          "context_tr": "İdari hukuk",
+          "context_en": "Administrative law",
+          "usage_example_tr": "Bakanlıklar merkezi idareye aittir.",
+          "usage_example_en": "Ministries belong to central administration."
+        },
+        {
+          "turkish_term": "mahalli idare",
+          "english_term": "local administration",
+          "definition_tr": "Yerel yönetim birimleri",
+          "definition_en": "Local government units",
+          "context_tr": "İdari hukuk",
+          "context_en": "Administrative law",
+          "usage_example_tr": "Belediyeler mahalli idaredir.",
+          "usage_example_en": "Municipalities are local administration."
+        },
+        {
+          "turkish_term": "teşkilat",
+          "english_term": "organization / structure",
+          "definition_tr": "Devlet kurumlarının düzenlenmiş yapısı",
+          "definition_en": "Organized structure of state institutions",
+          "context_tr": "İdari hukuk",
+          "context_en": "Administrative law",
+          "usage_example_tr": "Devlet teşkilatı kanunla düzenlenir.",
+          "usage_example_en": "State organization is regulated by law."
+        },
+        {
+          "turkish_term": "görev",
+          "english_term": "duty / function",
+          "definition_tr": "Devlet memurunun yapması gereken iş",
+          "definition_en": "Work that public servant must do",
+          "context_tr": "İdari hukuk",
+          "context_en": "Administrative law",
+          "usage_example_tr": "Görev kanunla belirlenir.",
+          "usage_example_en": "Duty is determined by law."
+        },
+        {
+          "turkish_term": "yetki",
+          "english_term": "authority / competence",
+          "definition_tr": "Bir işi yapma hakkı",
+          "definition_en": "Right to do something",
+          "context_tr": "İdari hukuk",
+          "context_en": "Administrative law",
+          "usage_example_tr": "Yetki kanunla verilir.",
+          "usage_example_en": "Authority is given by law."
+        },
+        {
+          "turkish_term": "memur",
+          "english_term": "civil servant",
+          "definition_tr": "Devlet hizmetinde çalışan kişi",
+          "definition_en": "Person working in state service",
+          "context_tr": "İdari hukuk",
+          "context_en": "Administrative law",
+          "usage_example_tr": "Memurlar özel hukuka tabidir.",
+          "usage_example_en": "Civil servants are subject to private law."
+        },
+        {
+          "turkish_term": "düzenleme",
+          "english_term": "regulation",
+          "definition_tr": "İdarenin düzenleyici işlemi",
+          "definition_en": "Regulatory act of administration",
+          "context_tr": "İdari hukuk",
+          "context_en": "Administrative law",
+          "usage_example_tr": "Düzenleme işlemi resmi gazetede yayımlanır.",
+          "usage_example_en": "Regulatory act is published in official gazette."
+        }
+      ]
+    },
+    "13. Vergi Hukuku": {
+      "description": "Vergi sistemi ve vergi hukuku terimleri",
+      "terms": [
+        {
+          "turkish_term": "vergi",
+          "english_term": "tax",
+          "definition_tr": "Devletin vatandaşlardan aldığı zorunlu ödeme",
+          "definition_en": "Compulsory payment taken by state from citizens",
+          "context_tr": "Vergi hukuku",
+          "context_en": "Tax law",
+          "usage_example_tr": "Vergi kanunla konulur.",
+          "usage_example_en": "Tax is imposed by law."
+        },
+        {
+          "turkish_term": "vergi mükellefi",
+          "english_term": "taxpayer",
+          "definition_tr": "Vergi ödeme yükümlülüğü olan kişi",
+          "definition_en": "Person with obligation to pay tax",
+          "context_tr": "Vergi hukuku",
+          "context_en": "Tax law",
+          "usage_example_tr": "Her vergi mükellefi gelir beyannamesi vermelidir.",
+          "usage_example_en": "Every taxpayer must file income declaration."
+        },
+        {
+          "turkish_term": "vergi dairesi",
+          "english_term": "tax office",
+          "definition_tr": "Vergi tahsilatını yapan devlet kurumu",
+          "definition_en": "State institution collecting taxes",
+          "context_tr": "Vergi hukuku",
+          "context_en": "Tax law",
+          "usage_example_tr": "Vergi dairesine başvuru yapılır.",
+          "usage_example_en": "Application is made to tax office."
+        },
+        {
+          "turkish_term": "vergilendirme",
+          "english_term": "taxation",
+          "definition_tr": "Vergi koyma ve tahsil etme işlemi",
+          "definition_en": "Act of imposing and collecting tax",
+          "context_tr": "Vergi hukuku",
+          "context_en": "Tax law",
+          "usage_example_tr": "Vergilendirme kanunla yapılır.",
+          "usage_example_en": "Taxation is done by law."
+        },
+        {
+          "turkish_term": "gelir vergisi",
+          "english_term": "income tax",
+          "definition_tr": "Gelir üzerinden alınan vergi",
+          "definition_en": "Tax taken on income",
+          "context_tr": "Vergi hukuku",
+          "context_en": "Tax law",
+          "usage_example_tr": "Gelir vergisi progresif oranlıdır.",
+          "usage_example_en": "Income tax has progressive rates."
+        },
+        {
+          "turkish_term": "katma değer vergisi",
+          "english_term": "value added tax (VAT)",
+          "definition_tr": "Mal ve hizmetler üzerinden alınan vergi",
+          "definition_en": "Tax taken on goods and services",
+          "context_tr": "Vergi hukuku",
+          "context_en": "Tax law",
+          "usage_example_tr": "KDV tüketiciye yansır.",
+          "usage_example_en": "VAT is passed on to consumer."
+        },
+        {
+          "turkish_term": "emlak vergisi",
+          "english_term": "property tax",
+          "definition_tr": "Taşınmaz mallar üzerinden alınan vergi",
+          "definition_en": "Tax taken on immovable property",
+          "context_tr": "Vergi hukuku",
+          "context_en": "Tax law",
+          "usage_example_tr": "Emlak vergisi yıllık alınır.",
+          "usage_example_en": "Property tax is collected annually."
+        },
+        {
+          "turkish_term": "vergi incelemesi",
+          "english_term": "tax audit",
+          "definition_tr": "Vergi matrahının kontrolü",
+          "definition_en": "Control of tax base",
+          "context_tr": "Vergi hukuku",
+          "context_en": "Tax law",
+          "usage_example_tr": "Vergi incelemesi sırasında belgeler incelenir.",
+          "usage_example_en": "Documents are examined during tax audit."
+        },
+        {
+          "turkish_term": "ceza",
+          "english_term": "penalty",
+          "definition_tr": "Vergi ziyaında uygulanan yaptırım",
+          "definition_en": "Sanction applied in tax evasion",
+          "context_tr": "Vergi hukuku",
+          "context_en": "Tax law",
+          "usage_example_tr": "Vergi ziyana ceza kesilir.",
+          "usage_example_en": "Penalty is imposed for tax evasion."
+        },
+        {
+          "turkish_term": "vergi affı",
+          "english_term": "tax amnesty",
+          "definition_tr": "Vergi borçlarının affedilmesi",
+          "definition_en": "Forgiveness of tax debts",
+          "context_tr": "Vergi hukuku",
+          "context_en": "Tax law",
+          "usage_example_tr": "Vergi affı kanunla yapılabilir.",
+          "usage_example_en": "Tax amnesty can be done by law."
+        }
+      ]
+    },
+    "14. Uluslararası Hukuk": {
+      "description": "Uluslararası ilişkiler ve uluslararası hukuk terimleri",
+      "terms": [
+        {
+          "turkish_term": "antlaşma",
+          "english_term": "treaty",
+          "definition_tr": "Devletler arasında yapılan hukuki anlaşma",
+          "definition_en": "Legal agreement between states",
+          "context_tr": "Uluslararası hukuk",
+          "context_en": "International law",
+          "usage_example_tr": "Antlaşma onaylanmadan yürürlüğe girmez.",
+          "usage_example_en": "Treaty does not enter into force without ratification."
+        },
+        {
+          "turkish_term": "ekonomik işbirliği",
+          "english_term": "economic cooperation",
+          "definition_tr": "Devletler arasındaki ekonomik ortaklık",
+          "definition_en": "Economic partnership between states",
+          "context_tr": "Uluslararası hukuk",
+          "context_en": "International law",
+          "usage_example_tr": "Ekonomik işbirliği serbest ticaret anlaşmalarını içerir.",
+          "usage_example_en": "Economic cooperation includes free trade agreements."
+        },
+        {
+          "turkish_term": "diplomatik misyon",
+          "english_term": "diplomatic mission",
+          "definition_tr": "Bir devletin diğer devletteki resmi temsilciliği",
+          "definition_en": "Official representation of one state in another",
+          "context_tr": "Uluslararası hukuk",
+          "context_en": "International law",
+          "usage_example_tr": "Büyükelçilik diplomatik misyondur.",
+          "usage_example_en": "Embassy is diplomatic mission."
+        },
+        {
+          "turkish_term": "orantılılık",
+          "english_term": "proportionality",
+          "definition_tr": "Tedbirin amacı ile orantılı olması",
+          "definition_en": "Measure being proportional to purpose",
+          "context_tr": "Uluslararası hukuk",
+          "context_en": "International law",
+          "usage_example_tr": "Orantılılık ilkesi uluslararası hukukta geçerlidir.",
+          "usage_example_en": "Principle of proportionality applies in international law."
+        },
+        {
+          "turkish_term": "devletler özel hukuku",
+          "english_term": "private international law",
+          "definition_tr": "Yabancılık unsuru içeren özel hukuk ilişkilerini düzenleyen hukuk dalı",
+          "definition_en": "Branch of law regulating private law relations with foreign element",
+          "context_tr": "Uluslararası hukuk",
+          "context_en": "International law",
+          "usage_example_tr": "Devletler özel hukuku iktisas mahkemesi mevcuttur.",
+          "usage_example_en": "There is a specialized court for private international law."
+        },
+        {
+          "turkish_term": "çifte vatandaşlık",
+          "english_term": "dual citizenship",
+          "definition_tr": "İki devlete aynı anda bağlı olma",
+          "definition_en": "Being simultaneously tied to two states",
+          "context_tr": "Uluslararası hukuk",
+          "context_en": "International law",
+          "usage_example_tr": "Çifte vatandaşlık bazı sınırlamalara tabidir.",
+          "usage_example_en": "Dual citizenship is subject to some limitations."
+        },
+        {
+          "turkish_term": "ekstradisyon",
+          "english_term": "extradition",
+          "definition_tr": "Suçlunun iade edilmesi",
+          "definition_en": "Handing over criminal",
+          "context_tr": "Uluslararası hukuk",
+          "context_en": "International law",
+          "usage_example_tr": "Ekstradisyon antlaşması ile yapılır.",
+          "usage_example_en": "Extradition is done by agreement."
+        },
+        {
+          "turkish_term": "immunitet",
+          "english_term": "immunity",
+          "definition_tr": "Yargı bağışıklığı",
+          "definition_en": "Judicial immunity",
+          "context_tr": "Uluslararası hukuk",
+          "context_en": "International law",
+          "usage_example_tr": "Büyükelçilerimmunitete sahiptir.",
+          "usage_example_en": "Ambassadors have immunity."
+        },
+        {
+          "turkish_term": "diplomatik pasaport",
+          "english_term": "diplomatic passport",
+          "definition_tr": "Diplomatik personele verilen pasaport",
+          "definition_en": "Passport given to diplomatic personnel",
+          "context_tr": "Uluslararası hukuk",
+          "context_en": "International law",
+          "usage_example_tr": "Diplomatik pasaport vizadan muaftır.",
+          "usage_example_en": "Diplomatic passport is exempt from visa."
+        },
+        {
+          "turkish_term": "hukukî dostluk",
+          "english_term": "amicus curiae",
+          "definition_tr": "Hukuki konularda görüş bildiren üçüncü taraf",
+          "definition_en": "Third party expressing opinion on legal matters",
+          "context_tr": "Uluslararası hukuk",
+          "context_en": "International law",
+          "usage_example_tr": "Uluslararası mahkemelerde amicus curiae görüşleri alınır.",
+          "usage_example_en": "Amicus curiae opinions are received in international courts."
+        }
+      ]
+    },
+    "15. Fikri Mülkiyet Hukuku": {
+      "description": "Telif hakları ve fikri mülkiyet terimleri",
+      "terms": [
+        {
+          "turkish_term": "telif hakkı",
+          "english_term": "copyright",
+          "definition_tr": "Eser sahibinin eseri üzerindeki hakları",
+          "definition_en": "Rights of work owner over their work",
+          "context_tr": "Fikri mülkiyet hukuku",
+          "context_en": "Intellectual property law",
+          "usage_example_tr": "Telif hakkı otomatik doğar.",
+          "usage_example_en": "Copyright arises automatically."
+        },
+        {
+          "turkish_term": "patent",
+          "english_term": "patent",
+          "definition_tr": "Buluş sahibinin tekel hakkı",
+          "definition_en": "Exclusive right of inventor",
+          "context_tr": "Fikri mülkiyet hukuku",
+          "context_en": "Intellectual property law",
+          "usage_example_tr": "Patent koruması 20 yıldır.",
+          "usage_example_en": "Patent protection is 20 years."
+        },
+        {
+          "turkish_term": "marka",
+          "english_term": "trademark",
+          "definition_tr": "Ticari mal ve hizmetlerin tanıtımına yarayan işaret",
+          "definition_en": "Sign used to identify commercial goods and services",
+          "context_tr": "Fikri mülkiyet hukuku",
+          "context_en": "Intellectual property law",
+          "usage_example_tr": "Marka tescil edilmelidir.",
+          "usage_example_en": "Trademark must be registered."
+        },
+        {
+          "turkish_term": "ticari sır",
+          "english_term": "trade secret",
+          "definition_tr": "İşletmenin rakiplerine karşı kullandığı gizli bilgi",
+          "definition_en": "Secret information used by business against competitors",
+          "context_tr": "Fikri mülkiyet hukuku",
+          "context_en": "Intellectual property law",
+          "usage_example_tr": "Ticari sır kanunen korunur.",
+          "usage_example_en": "Trade secret is protected by law."
+        },
+        {
+          "turkish_term": "tasarım",
+          "english_term": "design",
+          "definition_tr": "Eşyanın görünümüne ilişkin özgün düzenleme",
+          "definition_en": "Original arrangement relating to appearance of product",
+          "context_tr": "Fikri mülkiyet hukuku",
+          "context_en": "Intellectual property law",
+          "usage_example_tr": "Tasarım hakkı koruma süresi 25 yıldır.",
+          "usage_example_en": "Design right protection period is 25 years."
+        },
+        {
+          "turkish_term": "know-how",
+          "english_term": "know-how",
+          "definition_tr": "Teknik bilgi ve deneyim",
+          "definition_en": "Technical knowledge and experience",
+          "context_tr": "Fikri mülkiyet hukuku",
+          "context_en": "Intellectual property law",
+          "usage_example_tr": "Know-how lisans anlaşması ile devredilebilir.",
+          "usage_example_en": "Know-how can be transferred by license agreement."
+        },
+        {
+          "turkish_term": "lisans",
+          "english_term": "license",
+          "definition_tr": "Fikri mülkiyet hakkını kullanma izni",
+          "definition_en": "Permission to use intellectual property right",
+          "context_tr": "Fikri mülkiyet hukuku",
+          "context_en": "Intellectual property law",
+          "usage_example_tr": "Lisans anlaşması yazılı olmalıdır.",
+          "usage_example_en": "License agreement must be in writing."
+        },
+        {
+          "turkish_term": "tescil",
+          "english_term": "registration",
+          "definition_tr": "Fikri mülkiyet hakkının resmi sicile kaydı",
+          "definition_en": "Recording intellectual property right in official register",
+          "context_tr": "Fikri mülkiyet hukuku",
+          "context_en": "Intellectual property law",
+          "usage_example_tr": "Marka tescili TPE'de yapılır.",
+          "usage_example_en": "Trademark registration is done at Turkish Patent Institute."
+        },
+        {
+          "turkish_term": "ihlal",
+          "english_term": "infringement",
+          "definition_tr": "Fikri mülkiyet hakkının izinsiz kullanılması",
+          "definition_en": "Unauthorized use of intellectual property right",
+          "context_tr": "Fikri mülkiyet hukuku",
+          "context_en": "Intellectual property law",
+          "usage_example_tr": "İhlal halinde tazminat talep edilebilir.",
+          "usage_example_en": "Compensation can be claimed in case of infringement."
+        },
+        {
+          "turkish_term": "sınır geçişi",
+          "english_term": "border crossing",
+          "definition_tr": "Sahte malın gümrükten geçişinin engellenmesi",
+          "definition_en": "Preventing counterfeit goods from passing customs",
+          "context_tr": "Fikri mülkiyet hukuku",
+          "context_en": "Intellectual property law",
+          "usage_example_tr": "Sınır geçiş tedbiri alınabilir.",
+          "usage_example_en": "Border crossing measure can be taken."
+        }
+      ]
+    }
+  }
+}

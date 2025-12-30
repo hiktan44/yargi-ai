@@ -1,0 +1,536 @@
+{
+  "metadata": {
+    "title": "Türkiye Mahkeme Kararları - Anonimleştirilmiş Vaka Örnekleri",
+    "description": "Türkiye'deki önemli mahkeme kararlarından anonimleştirilmiş vaka örnekleri",
+    "date_created": "2025-11-04",
+    "total_cases": 25,
+    "sources": [
+      "Yargıtay",
+      "Danıştay", 
+      "Anayasa Mahkemesi",
+      "Bölge Adliye Mahkemeleri"
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "DAN-2024-001",
+      "court": "Danıştay",
+      "court_type": "İdari Yargı",
+      "case_type": "Tam Yargı Davası",
+      "main_issue": "Kamu personelinin maaş farkları tazmini",
+      "legal_process": {
+        "initial_action": "İptal ve tam yargı davasının birlikte açılması",
+        "decision_level": "İdare Mahkemesi",
+        "appeal_process": "Danıştay temyiz",
+        "final_decision": "Tam yargı davasının esastan incelenmesi"
+      },
+      "case_summary": "Kamu personeli, atama kararının iptali nedeniyle maaş farklarının ödenmesi talebiyle dava açmış. İlk derece mahkemesi dayanak iptal kararının henüz kesinleşmediği gerekçesiyle tam yargı davasını reddetmiş. Danıştay, İYUK Madde 12 gereği iptal ve tam yargı davalarının birlikte açılabileceğini belirterek kararı bozmuş.",
+      "result": {
+        "outcome": "İdare Mahkemesi kararının bozulması",
+        "legal_ruling": "İYUK Madde 12 uyarınca tam yargı davasının esastan incelenmesi gerekli",
+        "final_status": "Dosya yeniden yargılama için İdare Mahkemesine gönderildi"
+      },
+      "legal_precedent": "İptal ve tam yargı davalarının birlikte açılması mümkün olduğu gibi, iptal kararından sonra kanun yollarına başvurulmuş olsa dahi tam yargı davası açılabilir"
+    },
+    {
+      "case_id": "DAN-2024-002",
+      "court": "Danıştay",
+      "court_type": "İdari Yargı", 
+      "case_type": "İptal Davası",
+      "main_issue": "Üst geçit yapımı nedeniyle taşınmaz değer kaybı tazmini",
+      "legal_process": {
+        "initial_action": "İdari işlemin icrasından kaynaklanan zararın tazmini",
+        "decision_level": "İdare Mahkemesi",
+        "appeal_process": "Danıştay temyiz",
+        "final_decision": "Süre aşımı nedeniyle davanın reddi"
+      },
+      "case_summary": "Davacı, karayolu üst geçit yapımı nedeniyle taşınmazında oluşan değer kaybının tazmini istemiyle dava açmış. Ancak dava açma sürelerinin geçirildiği tespit edilmiş. Danıştay, üst geçit yapımının tamamlandığı tarihten itibaren 60 gün içinde dava açılması gerektiğini belirterek süre aşımı tespitinde bulunmuş.",
+      "result": {
+        "outcome": "İdare Mahkemesi kararının onanması",
+        "legal_ruling": "Davanın süre aşımı nedeniyle reddi",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "İdari işlemin icrasından kaynaklanan zararlar için dava açma süresi işlemin icrasının tamamlandığı tarihten itibaren hesaplanır"
+    },
+    {
+      "case_id": "DAN-2024-003",
+      "court": "Danıştay",
+      "court_type": "İdari Yargı",
+      "case_type": "Tam Yargı Davası", 
+      "main_issue": "Maili inhidam raporu ile binanın yıktırılması nedeniyle zarar tazmini",
+      "legal_process": {
+        "initial_action": "Doğrudan tazminat davası açılması",
+        "decision_level": "İdare Mahkemesi",
+        "appeal_process": "Danıştay temyiz",
+        "final_decision": "İdare Mahkemesi kararının bozulması"
+      },
+      "case_summary": "Davacı, maili inhidam raporu ile bina yıkımı nedeniyle uğradığı maddi ve manevi zararın tazmini istemiyle dava açmış. İdare Mahkemesi işlemin iptali davası açılmadığı gerekçesiyle talebi reddetmiş. Danıştay, İYUK Madde 12 uyarınca doğrudan tazminat davası açılabileceğini belirterek kararı bozmuş.",
+      "result": {
+        "outcome": "İdare Mahkemesi kararının bozulması", 
+        "legal_ruling": "İdari işleme karşı dava açılmaksızın doğrudan tazminat davası açılabilir",
+        "final_status": "Dosya yeniden yargılama için İdare Mahkemesine gönderildi"
+      },
+      "legal_precedent": "Bir işlemin iptali istemiyle dava açılmaması, söz konusu işlem nedeniyle uğranılan zararın tazmini istemiyle açılan davanın esasının incelenmesine engel oluşturmaz"
+    },
+    {
+      "case_id": "DAN-2024-004",
+      "court": "Danıştay",
+      "court_type": "İdari Yargı",
+      "case_type": "İçtihatları Birleştirme Kararı",
+      "main_issue": "İYUK Madde 12'de tam yargı davasında miktar gösterilme zorunluluğu",
+      "legal_process": {
+        "initial_action": "İçtihatların birleştirilmesi talebi",
+        "decision_level": "Danıştay İçtihatları Birleştirme Kurulu",
+        "appeal_process": "Resmi Gazete'de yayımlama",
+        "final_decision": "İçtihatların birleştirilmesi"
+      },
+      "case_summary": "Danıştay daireleri arasında, tam yargı davalarında uyuşmazlık konusu miktarın dava dilekçesinde gösterilmesinin zorunlu olup olmadığı konusunda aykırılık ortaya çıktı. İçtihatları Birleştirme Kurulu, zarar miktarının tespit edilemediği durumlarda miktar gösterilmeden dava açılabileceğine karar verdi.",
+      "result": {
+        "outcome": "İçtihatların birleştirilmesi",
+        "legal_ruling": "İYUK Madde 3/d'deki miktar gösterilme zorunluluğu ancak zarar miktarı hesaplanabilen durumlar için uygulanır",
+        "final_status": "Resmi Gazete'de yayımlandı"
+      },
+      "legal_precedent": "Kamu görevlilerini ilgilendiren mevzuat dolayısıyla zararın tespit edilememesi nedeniyle uyuşmazlık konusu miktarın dilekçede gösterilmemiş olması, iptal ve tam yargı davalarının birlikte açılmasını engellemez"
+    },
+    {
+      "case_id": "AYM-2024-001",
+      "court": "Anayasa Mahkemesi",
+      "court_type": "Anayasal Yargı",
+      "case_type": "Bireysel Başvuru",
+      "main_issue": "Adil yargılanma hakkı - Gerekçeli karar hakkının ihlali",
+      "legal_process": {
+        "initial_action": "Adli yargıda dava açılması",
+        "decision_level": "İlk derece mahkemesi ve istinaf",
+        "appeal_process": "Bireysel başvuru",
+        "final_decision": "Anayasa Mahkemesi ihlal tespiti"
+      },
+      "case_summary": "Başvurucu, mahkemenin karar sonucunu değiştirebilecek nitelikteki esaslı iddialarını karşılamadığı gerekçesiyle adil yargılanma hakkının ihlal edildiğini ileri sürmüştür. Anayasa Mahkemesi, mahkemenin gerekçeli kararında başvurucunun esaslı iddialarını ciddiye almadığı ve yeterli inceleme yapmadığı tespitinde bulunmuştur.",
+      "result": {
+        "outcome": "Adil yargılanma hakkının ihlal edildiğine karar",
+        "legal_ruling": "Mahkemeler, karar sonucunu etkileyebilecek esaslı iddiaları mutlaka ele almalı ve karşılamalıdır",
+        "final_status": "Yeniden yargılama"
+      },
+      "legal_precedent": "Mahkemeler, karar sonucunu değiştirebilecek nitelikteki esaslı iddiaların hiçbirini karara bağlamaksızın hüküm kuramaz"
+    },
+    {
+      "case_id": "AYM-2024-002",
+      "court": "Anayasa Mahkemesi",
+      "court_type": "Anayasal Yargı", 
+      "case_type": "Bireysel Başvuru",
+      "main_issue": "Adil yargılanma hakkı - Mahkemeye erişim hakkının kısıtlanması",
+      "legal_process": {
+        "initial_action": "Mahkeme başvurusu",
+        "decision_level": "İlk derece mahkemesi",
+        "appeal_process": "Bireysel başvuru", 
+        "final_decision": "Anayasa Mahkemesi ihlal tespiti"
+      },
+      "case_summary": "Başvurucu, mahkemece kanun yolu başvuru süresinin kaçırılmasına neden olan mahkeme hatası veya özensizliği bulunduğunu, bu nedenle mahkemeye erişim hakkının ihlal edildiğini ileri sürmüştür. Anayasa Mahkemesi, yargılamada sürelerin kaçırılmasına neden olan özensizliklerin adil yargılanma hakkını ihlal edeceğini değerlendirmiştir.",
+      "result": {
+        "outcome": "Mahkemeye erişim hakkının ihlal edildiğine karar",
+        "legal_ruling": "Mahkemeler, taraf olan kişilerin kanun yolu başvurularını zamanında yapabilmeleri için gerekli özeni göstermelidir",
+        "final_status": "Tazmin ve yeniden yargılama"
+      },
+      "legal_precedent": "Mahkemelerin hatası veya özensizliği nedeniyle kanun yolu başvuru süresini kaçıran kişilerin mahkemeye erişim hakları ihlal edilmiş sayılır"
+    },
+    {
+      "case_id": "YAR-2024-001",
+      "court": "Yargıtay",
+      "court_type": "Adli Yargı - Aile Hukuku",
+      "case_type": "Aile Konutu Tespit Davası",
+      "main_issue": "Taşınmazın aile konutu olduğunun tespiti",
+      "legal_process": {
+        "initial_action": "Aile mahkemesinde aile konutu tespiti davası",
+        "decision_level": "İlk derece mahkemesi",
+        "appeal_process": "İstinaf ve temyiz",
+        "final_decision": "Yargıtay bozma"
+      },
+      "case_summary": "Davacı, eşinin ev sahibine karşı açtığı aile konutu tespiti davasında, TMK 194/4 hükmüne göre kira sözleşmesine taraf olma imkanı varken aile konutu tespiti davası açtığı için hukuki yararının bulunmadığı iddia edilmiştir. Yargıtay, davacının kira sözleşmesine taraf olma imkanı varsa aile konutu tespiti davasında hukuki yararı olmadığına karar vermiştir.",
+      "result": {
+        "outcome": "Davanın reddi",
+        "legal_ruling": "TMK 194/4 hükmüne göre kira sözleşmesine taraf olma imkanı varken aile konutu tespiti davası açılamaz",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "TMK 194/4 hükmüne göre taraflardan biri kira sözleşmesine taraf olma imkanına sahip iken, diğeri taşınmazın aile konutu olduğunun tespitini talep edemez"
+    },
+    {
+      "case_id": "YAR-2024-002",
+      "court": "Yargıtay",
+      "court_type": "Adli Yargı - Aile Hukuku",
+      "case_type": "Soybağının Tespiti Davası",
+      "main_issue": "Babalık tespiti ve soybağı ilişkisi",
+      "legal_process": {
+        "initial_action": "Soybağının tespiti davası açılması",
+        "decision_level": "Aile mahkemesi",
+        "appeal_process": "İstinaf ve temyiz",
+        "final_decision": "Yargıtay onama"
+      },
+      "case_summary": "Davacı, çocuğun kendisinden olmadığı yönündeki şüphenin öğrenme açısından yeterli olmadığını belirtmiş, ancak yargılama dışı babalık testi ile öğrenme gerçekleştiği anda hak düşürücü sürenin başlayacağını kabul etmiştir. Yargıtay, yargılama dışı babalık testi ile öğrenme anında hak düşürücü sürenin başlayacağını onamıştır.",
+      "result": {
+        "outcome": "Babalık tespiti talebinin reddi",
+        "legal_ruling": "Yargılama dışı babalık testi ile öğrenme gerçekleştiği anda hak düşürücü süre başlar",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "Soybağı davalarında yargılama dışı babalık testi ile öğrenme gerçekleştiği anda hak düşürücü süre başlar"
+    },
+    {
+      "case_id": "YAR-2024-003",
+      "court": "Yargıtay",
+      "court_type": "Adli Yargı - Ceza Hukuku",
+      "case_type": "Kasten Yaralama",
+      "main_issue": "Spor etkinliği sırasında meydana gelen yaralanma olayı",
+      "legal_process": {
+        "initial_action": "Polis tutanağı düzenlenmesi",
+        "decision_level": "Cumhuriyet Başsavcılığı soruşturması",
+        "appeal_process": "Temyiz incelemesi",
+        "final_decision": "Temyiz isteminin reddi"
+      },
+      "case_summary": "Basketbol maçı sırasında bir oyuncunun diğer oyuncuya dirsek atması sonucu yaralanma meydana gelmiş. Mağdur, kasten yaralama suçu şüphesiyle şikayetçi olmuş. Yargıtay, spor etkinlikleri sırasında meydana gelen kazaların kural olarak kasten yaralama suçu teşkil etmeyeceğini, sportif müsabaka kapsamındaki davranışların değerlendirilmesi gerektiğini belirtmiştir.",
+      "result": {
+        "outcome": "Temyiz isteminin reddi",
+        "legal_ruling": "Spor müsabakaları sırasında meydana gelen olaylar kural olarak kasten yaralama suçu teşkil etmez",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "Spor etkinlikleri sırasında meydana gelen kazalar, müsabaka kuralları ve sporun doğası gereği meydana gelen normal sonuçlar olarak değerlendirilmelidir"
+    },
+    {
+      "case_id": "YAR-2024-004",
+      "court": "Yargıtay",
+      "court_type": "Adli Yargı - Ticaret Hukuku",
+      "case_type": "İcra İnkâr Tazminatı",
+      "main_issue": "İtirazın iptali davası ve tahkim yargılaması",
+      "legal_process": {
+        "initial_action": "İcra takibi başlatılması",
+        "decision_level": "İcra mahkemesi",
+        "appeal_process": "Temyiz incelemesi", 
+        "final_decision": "İtirazın iptali ve icra inkâr tazminatı taleplerinin tahkime elverişli olduğu"
+      },
+      "case_summary": "İcra takibinde itiraz edilmesi üzerine açılan itirazın iptali davasında, icra inkâr tazminatı talebinin de bulunması nedeniyle bu taleplerin tahkime elverişli olup olmadığı tartışılmıştır. Yargıtay, itirazın iptali ve icra inkâr tazminatı taleplerinin tahkim yargılamasında karara bağlanabileceğini kabul etmiştir.",
+      "result": {
+        "outcome": "İtirazın iptali ve icra inkâr tazminatı taleplerinin tahkime elverişli olduğu",
+        "legal_ruling": "İtirazın iptali ve icra inkâr tazminatı talepleri tahkim sözleşmesi kapsamında değerlendirilebilir",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "İtirazın iptali ve icra inkâr tazminatı talepleri, tahkim yargılaması yoluyla çözümlenebilir"
+    },
+    {
+      "case_id": "IS-2024-001",
+      "court": "İş Mahkemesi",
+      "court_type": "Adli Yargı - İş Hukuku", 
+      "case_type": "İşe İade Davası",
+      "main_issue": "İşçinin iş akdinin feshi ve işe iade talebi",
+      "legal_process": {
+        "initial_action": "İş akdinin haksız feshi",
+        "decision_level": "İş Mahkemesi",
+        "appeal_process": "İstinaf ve temyiz",
+        "final_decision": "İşe iade kararı"
+      },
+      "case_summary": "İşçi, işverence iş akdinin haksız olarak feshedildiğini belirterek işe iade talebiyle dava açmıştır. İş Mahkemesi, işverenin feshi işleminin geçersiz olduğunu tespit ederek işçinin işe iadesine karar vermiştir. Karar, Yargıtay tarafından onanmıştır.",
+      "result": {
+        "outcome": "İşe iade kararı",
+        "legal_ruling": "İşverenin fesih işlemi geçersiz, işçinin işe iadesi gerekli",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "İş akdinin feshinin geçersizliği halinde işçinin işe iadesi ve ücret ödemesi gerekir"
+    },
+    {
+      "case_id": "VER-2024-001",
+      "court": "Vergi Mahkemesi",
+      "court_type": "İdari Yargı - Vergi Hukuku",
+      "case_type": "Vergi İncelemesi ve Cezai Sorumluluk",
+      "main_issue": "Sahte fatura düzenlenmesi ve vergi ziyaı",
+      "legal_process": {
+        "initial_action": "Vergi incelemesi yapılması",
+        "decision_level": "Vergi Mahkemesi",
+        "appeal_process": "Danıştay temyiz",
+        "final_decision": "Vergi cezasının onanması"
+      },
+      "case_summary": "Mükellef tarafından sahte fatura düzenlenerek komisyon geliri elde edildiği tespit edilmiş ve vergi ziyaı cezası kesilmiştir. Vergi Mahkemesi cezayı onamış, Danıştay da temyiz istemini reddetmiştir.",
+      "result": {
+        "outcome": "Vergi ziyaı cezasının onanması",
+        "legal_ruling": "Sahte fatura düzenlenmesi vergi ziyaı suçunu oluşturur",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "Sahte fatura düzenlenmesi yoluyla vergi ziyaı yaratılması cezai sorumluluk doğurur"
+    },
+    {
+      "case_id": "BAM-2024-001",
+      "court": "Bölge Adliye Mahkemesi",
+      "court_type": "Adli Yargı - İstinaf",
+      "case_type": "İstinaf Başvurusu",
+      "main_issue": "İlk derece mahkemesi kararına karşı istinaf başvurusu",
+      "legal_process": {
+        "initial_action": "İlk derece mahkemesi kararına karşı istinaf",
+        "decision_level": "Bölge Adliye Mahkemesi", 
+        "appeal_process": "Temyiz imkanı",
+        "final_decision": "İstinaf başvurusunun reddi"
+      },
+      "case_summary": "İlk derece mahkemesi tarafından verilen karara karşı istinaf başvurusu yapılmış. Bölge Adliye Mahkemesi, istinaf başvurusunu esastan reddederek ilk derece mahkemesi kararını onamıştır. İstinaf incelemesinde, ilk derece mahkemesinin hukuki değerlendirmesinin doğru olduğu kabul edilmiştir.",
+      "result": {
+        "outcome": "İstinaf başvurusunun reddi",
+        "legal_ruling": "İlk derece mahkemesi kararı hukuka uygun",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "İstinaf incelemesi, ilk derece mahkemesi kararının hukuka uygunluğunu denetler"
+    },
+    {
+      "case_id": "DAN-2024-005",
+      "court": "Danıştay",
+      "court_type": "İdari Yargı",
+      "case_type": "Tam Yargı Davası",
+      "main_issue": "Eğitim kurumu işletme izni reddi nedeniyle zarar tazmini",
+      "legal_process": {
+        "initial_action": "İptal kararının tebliğinden sonra tazminat davası",
+        "decision_level": "İdare Mahkemesi",
+        "appeal_process": "Danıştay temyiz",
+        "final_decision": "İdare Mahkemesi kararının bozulması"
+      },
+      "case_summary": "Eğitim kurumu işletme izni reddi nedeniyle açılan iptal davası kabul edilmiş, ancak işletme izni kararı temyiz aşamasında iken tazminat davası açılmıştır. İdare Mahkemesi kararın henüz kesinleşmediği gerekçesiyle davayı reddetmiş. Danıştay, iptal kararının temyizde olması tazminat davasının açılmasına engel olmayacağını belirtmiştir.",
+      "result": {
+        "outcome": "İdare Mahkemesi kararının bozulması",
+        "legal_ruling": "İptal kararının temyizde olması tam yargı davası açılmasına engel değil",
+        "final_status": "Dosya yeniden yargılama için İdare Mahkemesine gönderildi"
+      },
+      "legal_precedent": "İptal kararının temyiz incelemesi için Danıştay'a gönderilmiş olması, tam yargı davasını vaktinden önce açılmış dava konumuna getirmez"
+    },
+    {
+      "case_id": "AYM-2024-003",
+      "court": "Anayasa Mahkemesi",
+      "court_type": "Anayasal Yargı",
+      "case_type": "Bireysel Başvuru",
+      "main_issue": "İfade özgürlüğü ve toplantı hakkı",
+      "legal_process": {
+        "initial_action": "Toplantı düzenleme izni başvurusu reddi",
+        "decision_level": "İdare Mahkemesi",
+        "appeal_process": "Bireysel başvuru",
+        "final_decision": "Anayasa Mahkemesi ihlal tespiti"
+      },
+      "case_summary": "Başvurucu, toplantı düzenleme izni başvurusunun reddedildiğini, bu reddin ifade özgürlüğü ve toplantı hakkını ihlal ettiğini ileri sürmüştür. Anayasa Mahkemesi, idarenin toplantı izni başvurusunu değerlendirirken ifade özgürlüğü ve toplantı hakkının önemini yeterince dikkate almadığı tespitinde bulunmuştur.",
+      "result": {
+        "outcome": "İfade özgürlüğü ve toplantı hakkının ihlal edildiğine karar",
+        "legal_ruling": "İdare, toplantı izni başvurularını değerlendirirken demokratik hakların korunmasına özen göstermeli",
+        "final_status": "İdarenin yeniden değerlendirme yapması"
+      },
+      "legal_precedent": "Toplantı ve gösteri yürüyüşü hakkı, demokrasinin temel unsurlarından biridir ve gereksiz kısıtlamalar getirilemez"
+    },
+    {
+      "case_id": "YAR-2024-005",
+      "court": "Yargıtay",
+      "court_type": "Adli Yargı - Aile Hukuku",
+      "case_type": "Velayet Hakkı ve Çocuk Soyadı Değişikliği",
+      "main_issue": "Velayet hakkına sahip annenin çocuk soyadı değişikliği talebi",
+      "legal_process": {
+        "initial_action": "Çocuğun soyadının değiştirilmesi talebi",
+        "decision_level": "Aile Mahkemesi",
+        "appeal_process": "İstinaf ve temyiz",
+        "final_decision": "Yargıtay onama"
+      },
+      "case_summary": "Velayet hakkına sahip anne, çocuğun soyadının kendi soyadıyla değiştirilmesi talebiyle dava açmıştır. Yargıtay, çocuğun üstün yararı açısından anne soyadının daha uygun olması halinde soyadı değişikliğine izin verilebileceğini belirtmiştir.",
+      "result": {
+        "outcome": "Soyadı değişikliği talebinin kabulü",
+        "legal_ruling": "Çocuğun üstün yararına uygun olan soyadının seçilmesi gerekir",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "Velayet hakkına sahip eşin, çocuğun üstün yararına uygun olduğunda soyadı değişikliği talep etme hakkı vardır"
+    },
+    {
+      "case_id": "YAR-2024-006",
+      "court": "Yargıtay",
+      "court_type": "Adli Yargı - Ticaret Hukuku",
+      "case_type": "Şirket Kefaleti ve Eş Rızası",
+      "main_issue": "Müteselsil kefil sıfatıyla kredi sözleşmesi imzalayan eşin sonradan ipotek muvaffakati",
+      "legal_process": {
+        "initial_action": "İpotek işlemine muvaffakat verilmemesi",
+        "decision_level": "Ticaret Mahkemesi",
+        "appeal_process": "İstinaf ve temyiz", 
+        "final_decision": "Yargıtay onama"
+      },
+      "case_summary": "Eş, müteselsil kefil sıfatıyla kredi sözleşmesi imzalamış, ancak dört ay sonra kurulan ipotek işlemine muvafakat etmemiştir. Yargıtay, önceki kefalet sözleşmesinin sonradan kurulan ipotek işlemine rıza anlamına gelmeyeceğini belirtmiştir.",
+      "result": {
+        "outcome": "İpotek işlemine rıza verilmediği",
+        "legal_ruling": "Müteselsil kefil sıfatıyla kredi sözleşmesi imzalayan eşin, sonradan kurulan ipotek işlemine muvafakat ettiği sonucu çıkarılamaz",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "Bir işlem için verilen muvaffakat, başka bir işlem için rıza anlamına gelmez"
+    },
+    {
+      "case_id": "IS-2024-002",
+      "court": "İş Mahkemesi",
+      "court_type": "Adli Yargı - İş Hukuku",
+      "case_type": "Ücret Alacağı Davası",
+      "main_issue": "Fazla mesai ücreti ve yıllık izin ücreti alacağı",
+      "legal_process": {
+        "initial_action": "İş akdi feshi sonrası ücret alacağı talebi",
+        "decision_level": "İş Mahkemesi",
+        "appeal_process": "İstinaf ve temyiz",
+        "final_decision": "Kısmi kabul"
+      },
+      "case_summary": "İşçi, işverenden fazla mesai ücreti ve yıllık izin ücreti alacağı talebiyle dava açmıştır. İş Mahkemesi, işçinin fazla mesai taleplerini kısmen kabul ederken yıllık izin ücreti talebini reddetmiştir. Yargıtay, işçinin çalışma süreleri ve izin hakları konusunda delil yetersizliği bulunduğunu belirtmiştir.",
+      "result": {
+        "outcome": "Kısmi kabul",
+        "legal_ruling": "İşçinin çalışma süreleri ve izin hakları yeterli delille ispatlanmalı",
+        "final_status": "Kısmen kesinleşmiş"
+      },
+      "legal_precedent": "İşçi alacakları davasında çalışma süreleri ve hak edişlerin delille ispatlanması gerekir"
+    },
+    {
+      "case_id": "VER-2024-002",
+      "court": "Vergi Dairesi",
+      "court_type": "İdari Yargı - Vergi Hukuku",
+      "case_type": "Vergi Tarhiyatı",
+      "main_issue": "Katma Değer Vergisi tarhiyatı ve indirim talepleri",
+      "legal_process": {
+        "initial_action": "KDV beyannamesi verilmemesi",
+        "decision_level": "Vergi Dairesi tarhiyat",
+        "appeal_process": "Vergi Mahkemesi ve Danıştay",
+        "final_decision": "Vergi Mahkemesi kararının onanması"
+      },
+      "case_summary": "Mükellefin KDV beyannamesi vermemesi nedeniyle vergi dairesince re'sen tarhiyat yapılmış. Vergi Mahkemesi tarhiyatı onamış, Danıştay da temyiz istemini reddetmiştir.",
+      "result": {
+        "outcome": "Vergi tarhiyatının onanması",
+        "legal_ruling": "KDV beyannamesi verme yükümlülüğüne uymayan mükellef hakkında re'sen tarhiyat yapılabilir",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "Vergi beyannamesi verme yükümlülüğüne uymayan mükellef hakkında re'sen vergi tarhiyatı yapılır"
+    },
+    {
+      "case_id": "BAM-2024-002",
+      "court": "Bölge Adliye Mahkemesi",
+      "court_type": "Adli Yargı - İstinaf",
+      "case_type": "İstinaf Başvurusu - Medeni Uyuşmazlık",
+      "main_issue": "Taşınmaz mülkiyet uyuşmazlığı",
+      "legal_process": {
+        "initial_action": "Tapu iptal ve tescil davası",
+        "decision_level": "Asliye Hukuk Mahkemesi",
+        "appeal_process": "İstinaf başvurusu",
+        "final_decision": "Bölge Adliye Mahkemesi kısmi onama"
+      },
+      "case_summary": "Taşınmaz mülkiyet uyuşmazlığına ilişkin davada, ilk derece mahkemesi davanın kısmen kabulüne karar vermiş. İstinaf başvurusu üzerine Bölge Adliye Mahkemesi, kararı kısmen onamış kısmen bozmuştur.",
+      "result": {
+        "outcome": "Kısmi onama",
+        "legal_ruling": "İlk derece mahkemesi kararının bazı hüküm fıkraları bozulmuştur",
+        "final_status": "Kısmen yeniden yargılama"
+      },
+      "legal_precedent": "İstinaf incelemesinde mahkeme kararlarının kısmen bozulması ve onanması mümkündür"
+    },
+    {
+      "case_id": "DAN-2024-006",
+      "court": "Danıştay",
+      "court_type": "İdari Yargı",
+      "case_type": "İptal Davası",
+      "main_issue": "Memur atama kararının iptali",
+      "legal_process": {
+        "initial_action": "Memur atama kararına karşı iptal davası",
+        "decision_level": "İdare Mahkemesi",
+        "appeal_process": "Danıştay temyiz",
+        "final_decision": "İdare Mahkemesi kararının onanması"
+      },
+      "case_summary": "Memurun atama kararının hukuka aykırı olduğu gerekçesiyle açılan iptal davası kabul edilmiş. Danıştay, atama işleminin hukuka aykırı olduğunu tespit ederek kararı onamıştır.",
+      "result": {
+        "outcome": "İdare Mahkemesi kararının onanması",
+        "legal_ruling": "Memur atama işleminin hukuka aykırı olduğu",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "Memur atama işlemlerinde hukuka uygunluk şartı aranır"
+    },
+    {
+      "case_id": "AYM-2024-004",
+      "court": "Anayasa Mahkemesi",
+      "court_type": "Anayasal Yargı",
+      "case_type": "Bireysel Başvuru",
+      "main_issue": "Mülkiyet hakkının ihlali",
+      "legal_process": {
+        "initial_action": "Taşınmaz kamulaştırması",
+        "decision_level": "İdare Mahkemesi",
+        "appeal_process": "Bireysel başvuru",
+        "final_decision": "Anayasa Mahkemesi ihlal tespiti"
+      },
+      "case_summary": "Başvurucunun taşınmazının kamulaştırılması sürecinde, adil tazmin ödenmediği ve mülkiyet hakkının ihlal edildiği iddia edilmiştir. Anayasa Mahkemesi, kamulaştırma bedelinin makul olmadığını ve mülkiyet hakkının ihlal edildiğini tespit etmiştir.",
+      "result": {
+        "outcome": "Mülkiyet hakkının ihlal edildiğine karar",
+        "legal_ruling": "Kamulaştırma bedeli adalete uygun olmalı ve güncel piyasa değerini yansıtmalı",
+        "final_status": "Yeniden değerlendirme"
+      },
+      "legal_precedent": "Kamulaştırma işlemlerinde adil ve yeterli tazmin ödenmesi mülkiyet hakkının korunması açısından zorunludur"
+    },
+    {
+      "case_id": "YAR-2024-007",
+      "court": "Yargıtay",
+      "court_type": "Adli Yargı - Ceza Hukuku",
+      "case_type": "Dolandırıcılık",
+      "main_issue": "Sahte belge kullanma suretiyle dolandırıcılık",
+      "legal_process": {
+        "initial_action": "Dolandırıcılık şüphesiyle soruşturma",
+        "decision_level": "Cumhuriyet Başsavcılığı ve Ağır Ceza Mahkemesi",
+        "appeal_process": "Temyiz incelemesi",
+        "final_decision": "Temyiz isteminin reddi"
+      },
+      "case_summary": "Sanığın sahte belge kullanarak başkalarını dolandırdığı tespit edilmiş. Ağır Ceza Mahkemesi sanığı dolandırıcılık suçundan mahkum etmiş. Yargıtay, delil durumu ve sanığın kusur oranını değerlendirerek kararı onamıştır.",
+      "result": {
+        "outcome": "Mahkumiyet kararının onanması",
+        "legal_ruling": "Sahte belge kullanma suretiyle dolandırıcılık suçu sabit",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "Sahte belge kullanarak başkalarını dolandırma eylemi dolandırıcılık suçunu oluşturur"
+    },
+    {
+      "case_id": "YAR-2024-008",
+      "court": "Yargıtay",
+      "court_type": "Adli Yargı - Ticaret Hukuku",
+      "case_type": "Şirket Hukuku",
+      "main_issue": "Limited şirket ortaklık payının devri ve rıza",
+      "legal_process": {
+        "initial_action": "Ortaklık payı devri sözleşmesi",
+        "decision_level": "Ticaret Mahkemesi",
+        "appeal_process": "İstinaf ve temyiz",
+        "final_decision": "Yargıtay onama"
+      },
+      "case_summary": "Limited şirket ortaklık payının devri için diğer ortakların rızasının alınmadığı tespit edilmiş. Yargıtay, limited şirket ortaklık payı devrinde diğer ortakların rızasının alınmasının zorunlu olduğunu belirtmiştir.",
+      "result": {
+        "outcome": "Ortaklık payı devrinin geçersizliği",
+        "legal_ruling": "Limited şirket ortaklık payı devri için diğer ortakların rızası zorunlu",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "Limited şirket ortaklık payı devrinde, limited şirket yapısı gereği diğer ortakların rızası aranır"
+    },
+    {
+      "case_id": "IS-2024-003",
+      "court": "İş Mahkemesi",
+      "court_type": "Adli Yargı - İş Hukuku",
+      "case_type": "İş Kazası ve Tazminat",
+      "main_issue": "İş kazası sonucu geçici iş göremezlik ve tazminat",
+      "legal_process": {
+        "initial_action": "İş kazası raporu ve tedavi",
+        "decision_level": "İş Mahkemesi",
+        "appeal_process": "İstinaf ve temyiz",
+        "final_decision": "İşverenin kusuru tespiti"
+      },
+      "case_summary": "İşçi, iş kazası sonucu geçici iş göremezlik yaşamış ve işverenden tazminat talep etmiştir. İş Mahkemesi, işverenin iş sağlığı ve güvenliği konusunda yeterli önlemleri almadığını tespit ederek tazminata hükmetmiştir.",
+      "result": {
+        "outcome": "İşverenin tazminat ödemesi",
+        "legal_ruling": "İşveren, iş sağlığı ve güvenliği konusunda gerekli önlemleri almakla yükümlü",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "İş kazası sonucu oluşan zararlardan işveren kusuru varsa sorumlu olur"
+    },
+    {
+      "case_id": "VER-2024-003",
+      "court": "Vergi Dairesi",
+      "court_type": "İdari Yargı - Vergi Hukuku",
+      "case_type": "Vergi İncelemesi ve Matrah Farkı",
+      "main_issue": "Gider gösterme kurallarına aykırılık",
+      "legal_process": {
+        "initial_action": "Vergi incelemesi raporu",
+        "decision_level": "Vergi Dairesi tarhiyat",
+        "appeal_process": "Vergi Mahkemesi ve Danıştay",
+        "final_decision": "Vergi Mahkemesi kararının onanması"
+      },
+      "case_summary": "Mükellefin gider gösterme kurallarına aykırı giderler düştüğü tespit edilerek matrah farkı hesaplanmış. Vergi Mahkemesi tarhiyatı onamış, Danıştay da temyiz istemini reddetmiştir.",
+      "result": {
+        "outcome": "Matrah farkı tarhiyatının onanması",
+        "legal_ruling": "Gider gösterme kurallarına aykırı giderler düşülemez",
+        "final_status": "Kesinleşmiş"
+      },
+      "legal_precedent": "Vergi matrahının hesaplanmasında gider gösterme kurallarına uyulması zorunludur"
+    }
+  ]
+}

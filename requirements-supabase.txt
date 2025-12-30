@@ -1,0 +1,8 @@
+# Supabase Dependencies for Yargı MCP
+supabase>=2.0.0
+
+# Additional dependencies for Supabase integration
+storage>=3.0.0
+postgrest>=0.1.0
+httpx
+markitdown

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Error Test</title>
+</head>
+<body>
+    <div id="status">Testing...</div>
+    <script>
+        console.log("Test script started");
+        
+        // Test main app
+        const testApp = async () => {
+            try {
+                const response = await fetch('http://localhost:5175/');
+                const html = await response.text();
+                
+                console.log("Response received:", html.length);
+                
+                if (html.includes('Analiz')) {
+                    document.getElementById('status').innerHTML = '<h1 style="color: green">✓ Analiz sekmesi bulundu</h1>';
+                } else {
+                    document.getElementById('status').innerHTML = '<h1 style="color: red">✗ Analiz sekmesi bulunamadı</h1>';
+                }
+                
+                if (html.includes('Dava Analizi ve Yeniden Oluşturma')) {
+                    document.getElementById('status').innerHTML += '<p style="color: green">✓ Dava Analizi başlığı bulundu</p>';
+                } else {
+                    document.getElementById('status').innerHTML += '<p style="color: red">✗ Dava Analizi başlığı bulunamadı</p>';
+                }
+                
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('status').innerHTML = '<h1 style="color: red">Connection Error: ' + error.message + '</h1>';
+            }
+        };
+        
+        testApp();
+    </script>
+</body>
+</html>

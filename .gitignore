@@ -1,0 +1,25 @@
+
+# Environment Variables
+.env
+.env.local
+.DS_Store
+
+# User Input Files (potentially large chunks or private data)
+# Uncomment if you want to ignore them
+# user_input_files/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Mac
+.DS_Store
+
+# Large Archives
+*.zip
+*.tar.gz

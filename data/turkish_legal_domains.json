@@ -1,0 +1,1197 @@
+{
+  "meta": {
+    "title": "Türkiye Hukuki Alanları - Kapsamlı Veri Tabanı",
+    "version": "1.0",
+    "created_date": "2025-11-04",
+    "total_domains": 7,
+    "description": "Türkiye'ye özgü 7 temel hukuki alan için kanun maddeleri, uygulama örnekleri, terimler ve pratik durumlar"
+  },
+  "domains": {
+    "kvkk": {
+      "domain_name": "KVKK (Kişisel Verilerin Korunması)",
+      "main_law": "6698 sayılı Kişisel Verilerin Korunması Kanunu",
+      "kanun_maddeleri": [
+        {
+          "madde_no": 1,
+          "baslik": "Amaç ve Kapsam",
+          "icerik": "Bu Kanunun amacı, kişisel verilerin işlenmesinde kişilerin temel hak ve özgürlüklerini korumak ve kişisel veri işlenen kişilerin aydınlatılması ve diğer hakları konusunda diğer kurum ve kuruluşların görev ve yetkilerini düzenlemektir.",
+          "uygulama_ornegi": "Herhangi bir işletme kişisel veri işleme faaliyeti yürüttüğünde KVKK hükümlerine uymak zorundadır.",
+          "kritik_noktalar": [
+            "Temel hak ve özgürlüklerin korunması",
+            "Aydınlatma yükümlülüğü",
+            "Açık rıza alınması"
+          ]
+        },
+        {
+          "madde_no": 3,
+          "baslik": "Tanımlar",
+          "icerik": "Bu Kanunda geçen; a) Kişisel veri: Kimliği belirli veya belirlenebilir gerçek kişiye ilişkin her türlü bilgiyi; b) Kişisel verilerin işlenmesi: Kişisel verilerin tamamen veya kısmen otomatik olan ya da herhangi bir veri kayıt sisteminin parçası olmak kaydıyla otomatik olmayan yollarla elde edilmesi, kaydedilmesi, depolanması, muhafaza edilmesi, değiştirilmesi, yeniden düzenlenmesi, açıklanması, aktarılması, sınıflandırılması ya da kullanılmasının engellenmesi gibi veriler üzerinde gerçekleştirilen her türlü işlemi",
+          "uygulama_ornegi": "Müşteri kayıt formunda ad, soyad, telefon, e-posta bilgilerinin alınması kişisel veri işleme faaliyetidir.",
+          "kritik_noktalar": [
+            "Kişisel veri tanımının genişliği",
+            "İşleme faaliyetlerinin çeşitliliği",
+            "Otomatik ve otomatik olmayan yöntemler"
+          ]
+        },
+        {
+          "madde_no": 4,
+          "baslik": "Kişisel Verilerin İşlenmesinde Genel İlkeler",
+          "icerik": "Kişisel veriler hukuka uygun ve dürüst bir şekilde işlenmelidir. Kişisel veriler belirli, açık ve meşru amaçlar için işlenmelidir. Kişisel veriler, işlendikleri amaçla bağlantılı, sınırlı ve ölçülü olmalıdır.",
+          "uygulama_ornegi": "Banka kredi başvuru değerlendirmesi için gerekli gelir bilgilerini almalı, aile fotoğraflarını istememelidir.",
+          "kritik_noktalar": [
+            "Hukuka uygunluk",
+            "Belirli ve meşru amaç",
+            "Veri minimizasyonu ilkesi",
+            "Saklama süresinin belirlenmesi"
+          ]
+        },
+        {
+          "madde_no": 5,
+          "baslik": "Kişisel Verilerin İşlenme Şartları",
+          "icerik": "Kişisel veriler, 1. Açık rıza, 2. Sözleşmenin kurulması veya ifası için zorunlu olması, 3. Veri sorumlusu hukuki yükümlülüğünü yerine getirmek için zorunlu olması, 4. Bir hakkın tesisi, kullanılması veya korunması için zorunlu olması, 5. Meşru menfaatler için zorunlu olması durumlarından birinin varlığı halinde işlenebilir.",
+          "uygulama_ornegi": "Online alışveriş sitesi kullanıcı adres bilgilerini sipariş teslimatı için işleyebilir (sözleşme ifası).",
+          "kritik_noktalar": [
+            "Açık rıza her zaman geçerli değildir",
+            "Sözleşme kurulumu ve ifası",
+            "Hukuki yükümlülük",
+            "Meşru menfaat testi"
+          ]
+        },
+        {
+          "madde_no": 6,
+          "baslik": "Özel Nitelikli Kişisel Veriler",
+          "icerik": "Kişilerin ırkı, etnik kökeni, siyasi düşüncesi, felsefi inancı, dini, mezhebi veya diğer inançları, kılık ve kıyafeti, dernek, vakıf veya sendika üyeliği, sağlığı, cinsel hayatı, ceza mahkûmiyeti ve güvenlik tedbirleriyle ilgili verileri ile biyometrik ve genetik verileri özel nitelikli kişisel veri olarak kabul edilir.",
+          "uygulama_ornegi": "Hastanelerde hasta sağlık verilerinin işlenmesi (özel nitelikli kişisel veri).",
+          "kritik_noktalar": [
+            "Açık rıza şartı (genellikle)",
+            "Kanunla düzenlenmiş istisnalar",
+            "Daha sıkı koruma",
+            "İhlallerinde daha ağır yaptırımlar"
+          ]
+        },
+        {
+          "madde_no": 10,
+          "baslik": "Veri Sorumlusunun Aydınlatma Yükümlülüğü",
+          "icerik": "Kişisel verilerin elde edilmesi sırasında, veri sorumlusu veya yetkilendirilmiş kişi; a) Veri sorumlusunun kimliği, b) Kişisel verilerin hangi amaçla işleneceği, c) İşlenen kişisel verilerin kimlere ve hangi amaçla aktarılabileceği, d) Kişisel veri toplamanın yöntemi ve hukuki sebebi hakkında bilgilendirir.",
+          "uygulama_ornegi": "Web sitesinde gizlilik politikası, aydınlatma metni ve cookie politikası yayınlanması.",
+          "kritik_noktalar": [
+            "Elde etme sırasında bilgilendirme",
+            "Aydınlatma metni zorunluluğu",
+            "Güncel ve erişilebilir bilgi",
+            "Sade ve anlaşılır dil"
+          ]
+        },
+        {
+          "madde_no": 11,
+          "baslik": "İlgili Kişinin Hakları",
+          "icerik": "İlgili kişi; a) Kişisel verilerinin işlenip işlenmediğini öğrenme, b) İşlenmişse buna ilişkin bilgi talep etme, c) Kişisel verilerinin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme, d) Kişisel verilerinin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme",
+          "uygulama_ornegi": "Kişi, şirketten kendi kişisel verilerinin hangi amaçla işlendiğini öğrenebilir ve yanlış bilgilerin düzeltilmesini talep edebilir.",
+          "kritik_noktalar": [
+            "Başvuru hakkı",
+            "Bilgi alma hakkı",
+            "Düzeltme hakkı",
+            "Silme hakkı (unutulma hakkı)",
+            "İtiraz hakkı"
+          ]
+        },
+        {
+          "madde_no": 12,
+          "baslik": "Veri Sorumlusu Yükümlülükleri",
+          "icerik": "Veri sorumlusu, a) Kişisel verilerin hukuka uygun olarak işlenmesini sağlamak, b) Kişisel verilerin hukuka uygun olarak işlenmesi için gerekli teknik ve idari tedbirleri almak, c) Kişisel verilerin işlenmesi nedeniyle zarar doğması halinde giderimini sağlamak üzere gerekli tedbirleri almakla yükümlüdür.",
+          "uygulama_ornegi": "Şirketler veri güvenliği için firewall, şifreleme, erişim kontrolü gibi teknik tedbirler almalıdır.",
+          "kritik_noktalar": [
+            "Hukuka uygun işleme",
+            "Teknik ve idari tedbirler",
+            "Veri ihlali bildirimi",
+            "Tazminat sorumluluğu"
+          ]
+        },
+        {
+          "madde_no": 18,
+          "baslik": "İdari Para Cezaları",
+          "icerik": "Bu Kanunun; a) 10 uncu maddesinde öngörülen aydınlatma yükümlülüğünü yerine getirmeyenler hakkında 5.000 Türk lirasından 100.000 Türk lirasına kadar, b) 12 nci maddesinde öngörülen veri güvenliğine ilişkin yükümlülükleri yerine getirmeyenler hakkında 15.000 Türk lirasından 1.000.000 Türk lirasına kadar idari para cezası verilir.",
+          "uygulama_ornegi": "Veri ihlali durumunda gerekli bildirimleri yapmayan şirketlere 15.000-1.000.000 TL arası ceza.",
+          "kritik_noktalar": [
+            "İhlal türüne göre farklı ceza aralıkları",
+            "2025 yılı güncel tutarları",
+            "Yeniden değerleme oranı uygulaması",
+            "Ağırlaştırılmış ihlallerde daha yüksek cezalar"
+          ]
+        }
+      ],
+      "uygulama_ornekleri": [
+        {
+          "senaryo": "E-ticaret Sitesi KVKK Uyum",
+          "durum": "Online alışveriş sitesi müşteri verilerini işlerken KVKK'ya uygun hareket etmelidir.",
+          "cozum": [
+            "Gizlilik politikası hazırlama",
+            "Aydınlatma metni yayınlama",
+            "Açık rıza alınması",
+            "Veri güvenliği tedbirleri alma",
+            "Başvuru mekanizması kurma"
+          ],
+          "puanlar": "Bu uygulama ile hem yasal uyum sağlanır hem de müşteri güveni artırılır."
+        },
+        {
+          "senaryo": "Çalışan Verilerinin İşlenmesi",
+          "durum": "İşveren çalışanlarının kişisel verilerini iş kanunundaki yükümlülükler çerçevesinde işler.",
+          "cozum": [
+            "İş sözleşmesi ile açık rıza alınması",
+            "SGK bildirimi yapılması",
+            "Vergi dairesine bildirimi",
+            "Aydınlatma metni verilmesi"
+          ],
+          "puanlar": "İş hukuku ve KVKK hükümlerinin birlikte dikkate alınması gerekir."
+        }
+      ],
+      "sik_kullanilan_terimler": [
+        {
+          "terim": "Kişisel Veri",
+          "aciklama": "Kimliği belirli veya belirlenebilir gerçek kişiye ilişkin her türlü bilgi",
+          "ornek": "Ad, soyad, telefon, e-posta, adres"
+        },
+        {
+          "terim": "Veri Sorumlusu",
+          "aciklama": "Kişisel verilerin işlenmesi amacını ve vasıtalarını belirleyen gerçek veya tüzel kişi",
+          "ornek": "Şirket, kurum, dernek, vakıf"
+        },
+        {
+          "terim": "Açık Rıza",
+          "aciklama": "Kişisel verilerin belirli bir konuda, bilgilendirilmeye dayalı olarak, özgür iradeyle açıklanan rıza",
+          "ornek": "Checkbox ile onay verilmesi"
+        },
+        {
+          "terim": "Aydınlatma Metni",
+          "aciklama": "Veri sorumlusu tarafından kişisel verilerin elde edilmesi sırasında verilen bilgi metni",
+          "ornek": "Web sitesinde yayınlanan gizlilik metni"
+        },
+        {
+          "terim": "Veri İhlali",
+          "aciklama": "Kişisel verilerin istenmeden açıklanması, verilmesi, çalınması veya başka şekilde erişilmesi",
+          "ornek": "Veritabanına yetkisiz erişim"
+        },
+        {
+          "terim": "Özel Nitelikli Kişisel Veri",
+          "aciklama": "Kişilerin sağlığı, cinsel hayatı, dini inançları gibi hassas veriler",
+          "ornek": "Hastalık durumu, siyasi görüş"
+        },
+        {
+          "terim": "Veri İşleme",
+          "aciklama": "Kişisel verilerin elde edilmesi, kaydedilmesi, muhafaza edilmesi, değiştirilmesi işlemleri",
+          "ornek": "Müşteri veritabanına kayıt girme"
+        },
+        {
+          "terim": "Düşük Riskli Veri İşleme",
+          "aciklama": "Kişisel verilerin, veri sorumlusu tarafından kişisel veri sahibinin temel hak ve özgürlüklerine ve sahip olduğu haklara zarar verebilecek şekilde işlenmesi",
+          "ornek": "İstatistiksel analiz için anonimleştirilmiş veriler"
+        }
+      ],
+      "pratik_durumlar": [
+        {
+          "durum": "Müşteri Verilerinin Pazarlama Amacıyla Kullanılması",
+          "sorun": "Kişisel veriler pazarlama için kullanılırken rıza alınmamış olabilir.",
+          "cozum": "Açık rıza alınması veya meşru menfaat gerekçesinin belgelenmesi",
+          "yasal_dayanak": "KVKK m.5"
+        },
+        {
+          "durum": "Veri İhlali Bildirimi",
+          "sorun": "Kişisel veriler ihlal edildiğinde Kurul ve kişiler haberdar edilmemiş olabilir.",
+          "cozum": "72 saat içinde bildirim yapılması ve önlem alınması",
+          "yasal_dayanak": "KVKK m.12"
+        },
+        {
+          "durum": "Eski Çalışan Verilerinin Saklanması",
+          "sorun": "İş ilişkisi sona erdiğinde çalışan verileri silinmemiş olabilir.",
+          "cozum": "İş hukuku gereklilikleri tamamlandıktan sonra verilerin imha edilmesi",
+          "yasal_dayanak": "KVKK m.4, m.11"
+        }
+      ]
+    },
+    
+    "vergi_hukuku": {
+      "domain_name": "Vergi Hukuku",
+      "main_law": "193 sayılı Gelir Vergisi Kanunu, 5520 sayılı Kurumlar Vergisi Kanunu, 213 sayılı Vergi Usul Kanunu",
+      "kanun_maddeleri": [
+        {
+          "madde_no": 103,
+          "baslik": "Gelir Vergisi Tarifesi",
+          "icerik": "2025 takvim yılı gelirlerine uygulanacak gelir vergisi tarifesi şöyledir: 158.000 TL'ye kadar %15, 330.000 TL'nin 158.000 TL'si için 23.700 TL (fazlası %20), 800.000 TL'nin 330.000 TL'si için 58.100 TL (fazlası %27), 4.300.000 TL'nin 800.000 TL'si için 185.000 TL (fazlası %35), 4.300.000 TL'den fazlasının 4.300.000 TL'si için 1.410.000 TL (fazlası %40).",
+          "uygulama_ornegi": "300.000 TL gelir elde eden kişi için: İlk 158.000 TL'ye %15 (23.700 TL), kalan 172.000 TL'ye %20 (34.400 TL), toplam 58.100 TL vergi.",
+          "kritik_noktalar": [
+            "Kademeli vergi sistemi",
+            "2025 yılı güncel tarifeleri",
+            "Ücretliler ve ücret dışı gelirler için farklılık",
+            "Yıllık yeniden değerleme"
+          ]
+        },
+        {
+          "madde_no": 94,
+          "baslik": "Vergi Tevkifatı",
+          "icerik": "Kamu idare ve müesseseleri, iktisadî kamu müesseseleri, ticaret şirketleri ve diğer kuruluşlar, belirli ödemelerde vergi tevkifatı yapmakla yükümlüdür.",
+          "uygulama_ornegi": "İşveren çalışanlarına ödenen ücretlerden gelir vergisi kesintisi yapması.",
+          "kritik_noktalar": [
+            "Kesinti yapma yükümlülüğü",
+            "Teşvik belgesi kapsamındaki istisnalar",
+            "Tevkifat oranları",
+            "Beyanname verme sorumluluğu"
+          ]
+        },
+        {
+          "madde_no": 129,
+          "baslik": "Stopaj Mükellefiyeti",
+          "icerik": "Dar mükellefiyete tabi gerçek kişilere ücret, tazminat, inzibati ve idari maaşlar ödeyenler stopaj yapmakla yükümlüdür.",
+          "uygulama_ornegi": "Yabancı uyruklu danışmana ödenen ücretten %20 stopaj kesintisi.",
+          "kritik_noktalar": [
+            "Dar mükellef kavramı",
+            "Stopaj oranları",
+            "İki taraflı vergi anlaşmaları",
+            "Yabancı uyruklular için özel durumlar"
+          ]
+        }
+      ],
+      "uygulama_ornekleri": [
+        {
+          "senaryo": "Gelir Vergisi Hesaplama",
+          "durum": "Ücretli çalışan yıllık 500.000 TL gelir elde etmiştir.",
+          "cozum": [
+            "İlk 158.000 TL için %15 = 23.700 TL",
+            "Sonraki 172.000 TL için %20 = 34.400 TL", 
+            "Sonraki 170.000 TL için %27 = 45.900 TL",
+            "Toplam vergi: 104.000 TL"
+          ],
+          "puanlar": "Vergi dilimlerinin doğru hesaplanması gerekir."
+        },
+        {
+          "senaryo": "Kurumlar Vergisi Beyanı",
+          "durum": "Anonim şirket 2025 yılında 2.000.000 TL ticari kazanç elde etmiştir.",
+          "cozum": [
+            "Kurumlar vergisi oranı: %25",
+            "Hesaplanan vergi: 500.000 TL",
+            "Beyanname verme süresi: Nisan 2026"
+          ],
+          "puanlar": "Kurumlar vergisi oranı ve istisnalar dikkate alınmalı."
+        }
+      ],
+      "sik_kullanilan_terimler": [
+        {
+          "terim": "Mükellef",
+          "aciklama": "Vergi yükümlülüğü bulunan gerçek veya tüzel kişi",
+          "ornek": "Çalışan, şirket, esnaf"
+        },
+        {
+          "terim": "Matrah",
+          "aciklama": "Vergiye tabi gelirin hesaplanmasında esas alınan tutar",
+          "ornek": "Ücret - giderler = vergi matrahı"
+        },
+        {
+          "terim": "Tarife",
+          "aciklama": "Vergi oranlarının kademeli olarak uygulandığı sistem",
+          "ornek": "Gelir vergisi tarifesi"
+        },
+        {
+          "terim": "Tevkifat",
+          "aciklama": "Vergi ödeyecek kişiden önce vergi kesintisi yapılması",
+          "ornek": "İşverenin çalışanlarından gelir vergisi kesmesi"
+        },
+        {
+          "terim": "İstisna",
+          "aciklama": "Vergiye tabi gelirden belirli tutarların çıkarılması",
+          "ornek": "Asgari ücret istisnası"
+        },
+        {
+          "terim": "Stopaj",
+          "aciklama": "Gelir üzerinden kaynak vergi olarak kesilen vergi",
+          "ornek": "Faiz, temettü gelirlerinden kesilen vergi"
+        },
+        {
+          "terim": "Beyanname",
+          "aciklama": "Vergi matrahı ve vergi tutarını bildiren form",
+          "ornek": "Yıllık gelir vergisi beyannamesi"
+        },
+        {
+          "terim": "Tarhiyat",
+          "aciklama": "Vergi dairesi tarafından vergi tutarının belirlenmesi",
+          "ornek": "Gelir vergisi tarhiyatı"
+        }
+      ],
+      "pratik_durumlar": [
+        {
+          "durum": "Serbest Meslek Faaliyeti",
+          "sorun": "Avukat, doktor gibi serbest meslek sahipleri gelir vergisi ödeme yükümlülüğü taşır.",
+          "cozum": "Yıllık beyanname verme ve gelir vergisi ödeme",
+          "yasal_dayanak": "GVK m.65"
+        },
+        {
+          "durum": "İşyeri Kira Geliri",
+          "sorun": "Kira geliri elde eden kişiler gelir vergisi ödeme yükümlülüğü taşır.",
+          "cozum": "GVK m.70 uyarınca kira gelirinin beyanı",
+          "yasal_dayanak": "GVK m.70"
+        },
+        {
+          "durum": "Mevduat Faizi",
+          "sorun": "Banka mevduat faizleri için vergi kesintisi yapılır.",
+          "cozum": "Banka otomatik stopaj yapar, beyanname verme durumu değerlendirilir",
+          "yasal_dayanak": "GVK m.75"
+        }
+      ]
+    },
+    
+    "ticaret_hukuku": {
+      "domain_name": "Ticaret Hukuku",
+      "main_law": "6102 sayılı Türk Ticaret Kanunu",
+      "kanun_maddeleri": [
+        {
+          "madde_no": 152,
+          "baslik": "Ana Sözleşme Değişikliklerinin Kapsamı",
+          "icerik": "Ana sözleşmede değişiklik yapılabilmesi için Genel Kurul kararı gereklidir. Değişiklikler usulüne uygun olarak tescil ve ilan edilmelidir.",
+          "uygulama_ornegi": "Şirketin ana sözleşmesinde sermaye artırımı için değişiklik yapılması.",
+          "kritik_noktalar": [
+            "Genel kurul kararı zorunluluğu",
+            "Tescil ve ilan işlemleri",
+            "Pay sahiplerinin hakları",
+            "İptal davası açma hakkı"
+          ]
+        },
+        {
+          "madde_no": 153,
+          "baslik": "Ana Sözleşme Değişikliklerinin Tescili",
+          "icerik": "Genel kurulda ana sözleşme değişikliği kararı alındıktan sonra, değişiklikler ticaret siciline tescil ettirilir ve Türkiye Ticaret Sicili Gazetesinde ilan edilir.",
+          "uygulama_ornegi": "Ana sözleşme değişiklik kararının tescili için Ticaret Sicili Memurluğuna başvuru.",
+          "kritik_noktalar": [
+            "Tescil süreleri",
+            "İlan zorunluluğu",
+            "Yargısal denetim",
+            "Kuruluş belgeleri güncellemesi"
+          ]
+        },
+        {
+          "madde_no": 125,
+          "baslik": "Anonim Şirket Kuruluşu",
+          "icerik": "Anonim şirket, en az bir gerçek veya tüzel kişi tarafından kanuna uygun olarak kurulur. Kuruluşta ana sözleşme, kurucu beyannamesi ve gerekli belgeler düzenlenir.",
+          "uygulama_ornegi": "Yeni bir anonim şirket kurmak için gerekli işlemlerin tamamlanması.",
+          "kritik_noktalar": [
+            "Asgari kurucu sayısı",
+            "Asgari sermaye tutarı",
+            "Ana sözleşme hazırlanması",
+            "Ticaret siciline başvuru"
+          ]
+        },
+        {
+          "madde_no": 365,
+          "baslik": "Yönetim Kurulu",
+          "icerik": "Anonim şirketin yönetimi Yönetim Kurulu tarafından yürütülür. Yönetim Kurulu en az bir üyeden oluşur.",
+          "uygulama_ornegi": "Anonim şirkette Yönetim Kurulu oluşturulması ve görev dağılımı yapılması.",
+          "kritik_noktalar": [
+            "Üye sayısı ve görev süresi",
+            "Görev ve yetkiler",
+            "Toplantı ve karar alma usulleri",
+            "Yükümlülükler ve sorumluluklar"
+          ]
+        },
+        {
+          "madde_no": 376,
+          "baslik": "Sermaye Kaybı ve Borca Batıklık",
+          "icerik": "Şirketin özkaynakları borca batık olması halinde, yönetim kurulu şirketin mali durumu hakkında yıllık faaliyet raporu düzenlemek ve gerekli tedbirleri almakla yükümlüdür.",
+          "uygulama_ornegi": "Şirketin borçları özkaynaklarını aşarsa gerekli önlemlerin alınması.",
+          "kritik_noktalar": [
+            "Finansal tabloların hazırlanması",
+            "Özkaynak/borç oranı",
+            "Yeniden yapılanma planı",
+            "Iflas erteleme başvurusu"
+          ]
+        }
+      ],
+      "uygulama_ornekleri": [
+        {
+          "senaryo": "Şirket Kuruluş Süreci",
+          "durum": "Üç ortak anonim şirket kurmak istiyor.",
+          "cozum": [
+            "Ana sözleşme hazırlama",
+            "Ticaret sicili müdürlüğüne başvuru",
+            "Gerekli belgeleri tamamlama",
+            "Tescile tabi işlemlerin yapılması",
+            "Türkiye Ticaret Sicili Gazetesinde ilan"
+          ],
+          "puanlar": "Hukuki süreçlerin dikkatli takibi gerekir."
+        },
+        {
+          "senaryo": "Sermaye Artırımı",
+          "durum": "Şirketin sermayesini artırmak istiyor.",
+          "cozum": [
+            "Genel kurul kararı alınması",
+            "Ana sözleşme değişikliği",
+            "Tescil işlemleri",
+            "Pay sahipliği haklarının korunması"
+          ],
+          "puanlar": "Pay sahiplerinin hakları korunmalıdır."
+        }
+      ],
+      "sik_kullanilan_terimler": [
+        {
+          "terim": "Ana Sözleşme",
+          "aciklama": "Şirketin kuruluşu, işleyişi ve yönetimi hakkında hükümler içeren temel belgedir",
+          "ornek": "Anonim şirketin kuruluş senedi"
+        },
+        {
+          "terim": "Ticaret Sicili",
+          "aciklama": "Ticari faaliyet gösteren kişilerin kayıt altına alındığı resmi sicildir",
+          "ornek": "Şirket tescil başvurusu"
+        },
+        {
+          "terim": "Yönetim Kurulu",
+          "aciklama": "Anonim şirketi yöneten ve temsil eden organdır",
+          "ornek": "5 üyeli yönetim kurulu"
+        },
+        {
+          "terim": "Genel Kurul",
+          "aciklama": "Anonim şirketin en yüksek karar organıdır",
+          "ornek": "Yıllık olağan genel kurul toplantısı"
+        },
+        {
+          "terim": "Pay Sahibi",
+          "aciklama": "Şirket paylarına sahip olan kişidir",
+          "ornek": "Şirket ortağı"
+        },
+        {
+          "terim": "Sermaye",
+          "aciklama": "Şirketin ekonomik temelini oluşturan tutardır",
+          "ornek": "1.000.000 TL sermaye"
+        },
+        {
+          "terim": "Tescil",
+          "aciklama": "Ticaret siciline kayıt işlemidir",
+          "ornek": "Şirket kuruluş tescili"
+        },
+        {
+          "terim": "İlan",
+          "aciklama": "Türkiye Ticaret Sicili Gazetesinde yayınlanma zorunluluğudur",
+          "ornek": "Ana sözleşme değişikliği ilanı"
+        }
+      ],
+      "pratik_durumlar": [
+        {
+          "durum": "Yönetim Kurulu Üyesi Değişikliği",
+          "sorun": "Yönetim kurulu üyesinin değiştirilmesi gerekir.",
+          "cozum": "Genel kurul kararı ve tescil işlemleri",
+          "yasal_dayanak": "TTK m.365"
+        },
+        {
+          "durum": "Şirket Birleşmesi",
+          "sorun": "İki şirketin birleşmesi planlanıyor.",
+          "cozum": "TTK hükümlerine göre birleşme prosedürü",
+          "yasal_dayanak": "TTK m.150"
+        },
+        {
+          "durum": "Iflas Durumu",
+          "sorun": "Şirket borca batık hale geldi.",
+          "cozum": "Öncelikle TTK m.376 kapsamında önlemler alınır",
+          "yasal_dayanak": "TTK m.376"
+        }
+      ]
+    },
+    
+    "is_hukuku": {
+      "domain_name": "İş Hukuku",
+      "main_law": "4857 sayılı İş Kanunu",
+      "kanun_maddeleri": [
+        {
+          "madde_no": 1,
+          "baslik": "İş Kanunu'nun Amacı ve Kapsamı",
+          "icerik": "Bu Kanunun amacı çalışanların çalışma şartları, iş ve işyerinde iş sağlığı ve güvenliği konularında asgari standartları belirlemektir.",
+          "uygulama_ornegi": "İşyerinde çalışma koşullarının belirlenmesi.",
+          "kritik_noktalar": [
+            "İşçi haklarının korunması",
+            "Çalışma şartlarının belirlenmesi",
+            "İş sağlığı ve güvenliği",
+            "Denetim mekanizmaları"
+          ]
+        },
+        {
+          "madde_no": 17,
+          "baslik": "İş Sözleşmesinin Feshi",
+          "icerik": "İşveren iş sözleşmesini feshetmek istediğinde, işçiye bildirim sürelerini beklemek zorundadır.",
+          "uygulama_ornegi": "İş sözleşmesinin feshi için 2-8 hafta önceden bildirim.",
+          "kritik_noktalar": [
+            "Bildirim süreleri",
+            "Haklı fesih sebepleri",
+            "İhbar tazminatı",
+            "İşçi hakları"
+          ]
+        },
+        {
+          "madde_no": 24,
+          "baslik": "Haklı Nedenle Fesih",
+          "icerik": "İşçi, ahlak ve iyi niyet kurallarına uymayan bir davranış gösterir veya bu yüzden sözleşme bozulursa işveren sözleşmeyi haklı nedenle feshedebilir.",
+          "uygulama_ornegi": "İşçinin işyerinde hırsızlık yapması halinde haklı fesih.",
+          "kritik_noktalar": [
+            "Ahlak ve iyi niyet kuralları",
+            "Haklı fesih sebepleri",
+            "İşçi hakları",
+            "Dava açma süreleri"
+          ]
+        },
+        {
+          "madde_no": 41,
+          "baslik": "Fazla Çalışma",
+          "icerik": "Ücretleri saatlik ücret sistemine göre belirlenen işçiler için, haftalık çalışma süresi 45 saati aşarsa fazla çalışma sayılır.",
+          "uygulama_ornegi": "Haftada 50 saat çalışan işçi için fazla çalışma ücreti ödenmesi.",
+          "kritik_noktalar": [
+            "45 saat sınırı",
+            "Fazla çalışma ücreti",
+            "İzin karşılığı çalışma",
+            "Maksimum çalışma süreleri"
+          ]
+        },
+        {
+          "madde_no": 53,
+          "baslik": "Yıllık Ücretli İzin",
+          "icerik": "İşyerinde bir yılını dolduran işçiye yıllık ücretli izin verilmesi gerekir.",
+          "uygulama_ornegi": "Bir yıl çalışan işçiye 14-26 gün arası izin verilmesi.",
+          "kritik_noktalar": [
+            "Asgari çalışma süresi",
+            "İzin süreleri",
+            "Ücret ödeme zorunluluğu",
+            "İzin kullanım hakkı"
+          ]
+        }
+      ],
+      "uygulama_ornekleri": [
+        {
+          "senaryo": "Fesih Süreci",
+          "durum": "İşveren işçiyi işten çıkarmak istiyor.",
+          "cozum": [
+            "Fesih sebeplerini belirleme",
+            "Bildirim sürelerini hesaplama",
+            "İhbar tazminatını ödeme",
+            "SGK bildirimini yapma",
+            "İşçiye haklarını bildirme"
+          ],
+          "puanlar": "Hukuki süreçlerin dikkatli takibi gerekir."
+        },
+        {
+          "senaryo": "Fazla Mesai Hesaplama",
+          "durum": "İşçi haftalık 50 saat çalışmış.",
+          "cozum": [
+            "45 saate kadar normal ücret",
+            "5 saate kadar fazla mesai ücreti (%50 zamlı)",
+            "Bordro hazırlama",
+            "Ödeme yapma"
+          ],
+          "puanlar": "Fazla mesai oranları dikkate alınmalı."
+        }
+      ],
+      "sik_kullanilan_terimler": [
+        {
+          "terim": "İşçi",
+          "aciklama": "İş sözleşmesi ile çalışan kişidir",
+          "ornek": "Fabrika çalışanı"
+        },
+        {
+          "terim": "İşveren",
+          "aciklama": "İş sözleşmesi ile işçi çalıştıran gerçek veya tüzel kişidir",
+          "ornek": "Şirket sahibi"
+        },
+        {
+          "terim": "İş Sözleşmesi",
+          "aciklama": "İşçi ile işveren arasında imzalanan sözleşmedir",
+          "ornek": "Belirsiz süreli iş sözleşmesi"
+        },
+        {
+          "terim": "Kıdem Tazminatı",
+          "aciklama": "İş sözleşmesinin haklı nedene dayanmayan feshinde ödenen tazminat",
+          "ornek": "1 yıl çalışan için 1 aylık ücret"
+        },
+        {
+          "terim": "İhbar Tazminatı",
+          "aciklama": "Bildirim sürelerine uyulmaması halinde ödenen tazminat",
+          "ornek": "2 hafta için 2 haftalık ücret"
+        },
+        {
+          "terim": "Fazla Mesai",
+          "aciklama": "Haftalık 45 saati aşan çalışma süreleri",
+          "ornek": "Haftada 50 saat çalışma"
+        },
+        {
+          "terim": "İş Sağlığı ve Güvenliği",
+          "aciklama": "İşçilerin sağlığını ve güvenliğini korumaya yönelik önlemler",
+          "ornek": "İş güvenliği eğitimi"
+        },
+        {
+          "terim": "Ücret",
+          "aciklama": "İşçinin çalışması karşılığında aldığı paradır",
+          "ornek": "Aylık maaş"
+        }
+      ],
+      "pratik_durumlar": [
+        {
+          "durum": "Haklı Fesih",
+          "sorun": "İşçi işyerinde kavga çıkarmış.",
+          "cozum": "Olay tutanağı hazırlama ve haklı fesih prosedürü",
+          "yasal_dayanak": "İş Kanunu m.24"
+        },
+        {
+          "durum": "İş Kazası",
+          "sorun": "İşçi işyerinde kaza geçirmiş.",
+          "cozum": "İş kazası tutanağı ve SGK bildirimi yapılması",
+          "yasal_dayanak": "İş Sağlığı ve Güvenliği Kanunu"
+        },
+        {
+          "durum": "Gebe Çalışan",
+          "sorun": "Hamile işçi çalışmaya devam etmek istiyor.",
+          "cozum": "Hafif işte çalıştırma ve doğum izni hakları",
+          "yasal_dayanak": "İş Kanunu m.74"
+        }
+      ]
+    },
+    
+    "idare_hukuku": {
+      "domain_name": "İdare Hukuku",
+      "main_law": "2577 sayılı İdari Yargılama Usulü Kanunu, 2576 sayılı Kanun, Anayasa",
+      "kanun_maddeleri": [
+        {
+          "madde_no": 2,
+          "baslik": "İptal Davası",
+          "icerik": "İdari işlemlerden dolayı menfaatleri ihlal edilen gerçek ve tüzel kişiler, bu işlemin iptali için idare mahkemesinde dava açabilirler.",
+          "uygulama_ornegi": "Vergi dairesi tarafından verilen vergi cezasının iptali davası.",
+          "kritik_noktalar": [
+            "Menfaat ihlali kavramı",
+            "Dava açma süreleri",
+            "İptal sebebi şartları",
+            "Dava yolu"
+          ]
+        },
+        {
+          "madde_no": 12,
+          "baslik": "Tam Yargı Davası",
+          "icerik": "İdari işlem veya eylemlerden dolayı kişisel hakları doğrudan muhtel olanlar, tam yargı davası açabilir.",
+          "uygulama_ornegi": "İdare tarafından yapılan haksız işlem sonucu zarar gören kişinin tazminat davası.",
+          "kritik_noktalar": [
+            "Kişisel hak ihlali",
+            "Tazminat isteme hakkı",
+            "Zarar ispatı",
+            "Dava süreleri"
+          ]
+        },
+        {
+          "madde_no": 15,
+          "baslik": "İdari İşlemin Yürütülmesinin Durdurulması",
+          "icerik": "İptal davası açan kişi, işlemin yürütülmesinin durdurulmasını isteyebilir.",
+          "uygulama_ornegi": "İdari para cezasına karşı açılan davada yürütmenin durdurulması talebi.",
+          "kritik_noktalar": [
+            "Telafi edilemez zarar",
+            "İvedilik unsuru",
+            "Geçici koruma",
+            "Mahkeme takdiri"
+          ]
+        }
+      ],
+      "uygulama_ornekleri": [
+        {
+          "senaryo": "Vergi Cezası İptali",
+          "durum": "Mükellefe vergi idaresi tarafından ceza kesilmiş.",
+          "cozum": [
+            "Cezanın hukuka aykırılığını tespit etme",
+            "İptal davası açma",
+            "Gerekçeleri belgeleme",
+            "Yürütmenin durdurulmasını isteme"
+          ],
+          "puanlar": "Hukuki delillerin hazırlanması kritik."
+        },
+        {
+          "senaryo": "İdari Para Cezası",
+          "durum": "İşletmeye idari para cezası verilmiş.",
+          "cozum": [
+            "Cezanın dayanaklarını inceleme",
+            "Usul hatalarını tespit etme",
+            "İptal davası açma",
+            "Alternatif çözümler değerlendirme"
+          ],
+          "puanlar": "İdari süreçlerin doğru takibi gerek."
+        }
+      ],
+      "sik_kullanilan_terimler": [
+        {
+          "terim": "İdari İşlem",
+          "aciklama": "İdarenin hukuki sonuç doğuran tek taraflı karar veya işlemi",
+          "ornek": "Vergi cezası kararı"
+        },
+        {
+          "terim": "İptal Davası",
+          "aciklama": "İdari işlemin hukuka aykırılığı nedeniyle açılan dava",
+          "ornek": "İdare mahkemesinde vergi cezası iptali davası"
+        },
+        {
+          "terim": "Tam Yargı Davası",
+          "aciklama": "İdari eylem veya işlem sonucu zarar gören kişinin tazminat istediği dava",
+          "ornek": "İdari hata sonucu maddi zarar tazmini"
+        },
+        {
+          "terim": "Menfaat İhlali",
+          "aciklama": "İdari işlemin kişinin hak ve menfaatlerine zarar vermesi",
+          "ornek": "Vergi cezasının mükellefe zarar vermesi"
+        },
+        {
+          "terim": "Dava Açma Süresi",
+          "aciklama": "İdari işleme karşı dava açma süresi (genellikle 60 gün)",
+          "ornek": "İdari para cezasına karşı 60 gün içinde dava"
+        },
+        {
+          "terim": "Yürütmenin Durdurulması",
+          "aciklama": "İdari işlemin yürütülmesinin geçici olarak durdurulması",
+          "ornek": "İptal davası açılırken yürütmenin durdurulması talebi"
+        },
+        {
+          "terim": "İdari Yargı",
+          "aciklama": "İdari işlem ve eylemlerin yargısal denetimi",
+          "ornek": "Danıştay kararları"
+        },
+        {
+          "terim": "İdare Mahkemesi",
+          "aciklama": "İdari uyuşmazlıkları gören ilk derece mahkemesi",
+          "ornek": "Vergi davaları mahkemesi"
+        }
+      ],
+      "pratik_durumlar": [
+        {
+          "durum": "İdari Para Cezası",
+          "sorun": "İşletmeye usulsüzlük nedeniyle ceza kesilmiş.",
+          "cozum": "Cezanın hukuka uygunluğunu inceleme ve gerekirse iptal davası açma",
+          "yasal_dayanak": "İYUK m.2"
+        },
+        {
+          "durum": "Kurum İşlemi",
+          "sorun": "Kamu kurumu işleminde hata yapılmış.",
+          "cozum": "İdari süreçlerin takibi ve gerekirse yargı yoluna başvurma",
+          "yasal_dayanak": "İYUK"
+        },
+        {
+          "durum": "Vergi İncelemesi",
+          "sorun": "Vergi incelemesinde eksiklik tespit edilmiş.",
+          "cozum": "İnceleme sonuçlarının değerlendirilmesi ve itiraz haklarının kullanılması",
+          "yasal_dayanak": "VUK"
+        }
+      ]
+    },
+    
+    "ceza_hukuku": {
+      "domain_name": "Ceza Hukuku",
+      "main_law": "5237 sayılı Türk Ceza Kanunu",
+      "kanun_maddeleri": [
+        {
+          "madde_no": 1,
+          "baslik": "Ceza Kanununun Amacı",
+          "icerik": "Bu Kanunun amacı; kişi hak ve özgürlüklerini, kamu düzen ve güvenliğini, hukuk devletini, kamu sağlığını ve çevreyi, toplum barışını korumaktır.",
+          "uygulama_ornegi": "Suçların önlenmesi ve adaletin sağlanması.",
+          "kritik_noktalar": [
+            "Kişi hak ve özgürlüklerinin korunması",
+            "Kamu düzen ve güvenliği",
+            "Hukuk devleti ilkesi",
+            "Suç ve ceza dengesi"
+          ]
+        },
+        {
+          "madde_no": 20,
+          "baslik": "Ceza Sorumluluğunun Şahsiliği",
+          "icerik": "Ceza sorumluluğu şahsîdir ve taksirli suçlar ile kasten işlenen suçlara ilişkin sorumluluk, kanunda açıkça yazılı hükümlerde gösterilen istisnalar dışında şahsîdir.",
+          "uygulama_ornegi": "Kişinin sadece kendi fiillerinden sorumlu olması.",
+          "kritik_noktalar": [
+            "Şahsî sorumluluk ilkesi",
+            "Taksir ve kast ayrımı",
+            "Sınırlı sorumluluk istisnaları",
+            "Hukuki kişiler"
+          ]
+        },
+        {
+          "madde_no": 35,
+          "baslik": "Suça Teşebbüs",
+          "icerik": "Suçun icrasına başlayan fail, elverişli vasıtalarla icra hareketlerini bitirmemiş veya neticeyi gerçekleştirmemiş ise teşebbüsten söz edilir.",
+          "uygulama_ornegi": "Hırsızlık yapmaya kalkışan kişinin yakalanması.",
+          "kritik_noktalar": [
+            "İcra hareketine başlama",
+            "Elverişli vasıta kullanma",
+            "Gönüllü vazgeçme",
+            "Ceza indirimi"
+          ]
+        },
+        {
+          "madde_no": 37,
+          "baslik": "Faillik",
+          "icerik": "Suçun kanuni tanımındaki fiili gerçekleştiren kişi faildir. Bir suçun işlenmesi, fiilin meydana gelmesi için fail tarafından birden fazla kişi ile birlikte hareket edilmesi hâlinde, bunlardan her biri suçun failidir.",
+          "uygulama_ornegi": "Suçu birlikte işleyen kişilerin hepsi faildir.",
+          "kritik_noktalar": [
+            "Fiilin gerçekleştirilmesi",
+            "Müşterek fail",
+            "Sorumluluk eşitliği",
+            "Suçun ortak işlenmesi"
+          ]
+        },
+        {
+          "madde_no": 81,
+          "baslik": "Kasten Öldürme",
+          "icerik": "Bir insanı kasten öldüren kişi, müebbet hapis cezası ile cezalandırır.",
+          "uygulama_ornegi": "Cinayet suçu.",
+          "kritik_noktalar": [
+            "Kasten öldürme",
+            "Müebbet hapis cezası",
+            "Ağırlaştırılmış müebbet",
+            "Nitelikli haller"
+          ]
+        },
+        {
+          "madde_no": 125,
+          "baslik": "Hakaret",
+          "icerik": "Bir kimseye onur, şeref ve saygınlığını rencide edici fiil ve davranışlar gösteren veya söyleyen kişi, bir yıldan üç yıla kadar hapis cezası ile cezalandırılır.",
+          "uygulama_ornegi": "Bir kişiye hakaret etme.",
+          "kritik_noktalar": [
+            "Onur ve şeref kavramı",
+            "Sözlü ve fiili hakaret",
+            "Hapis cezası",
+            "Cezalandırma seçenekleri"
+          ]
+        },
+        {
+          "madde_no": 243,
+          "baslik": "Bilişim Sistemine Yetkisiz Giriş",
+          "icerik": "Bilişim sistemine yetkisiz giriş suçu, bilişim sisteminin içerisinde yer alan veri üzerinde tasarrufta bulunmak veya sistemin işleyişini etkilemek amacıyla işlenir.",
+          "uygulama_ornegi": "Başkasının bilgisayarına izinsiz girme.",
+          "kritik_noktalar": [
+            "Yetkisiz erişim",
+            "Veri üzerinde tasarruf",
+            "Sistem etkileme",
+            "Örgütlü suçlar"
+          ]
+        }
+      ],
+      "uygulama_ornekleri": [
+        {
+          "senaryo": "Bilişim Suçları",
+          "durum": "Hacker bir sisteme yetkisiz giriş yapmış.",
+          "cozum": [
+            "Fiilin niteliğinin tespiti",
+            "Delillerin toplanması",
+            "Yasal prosedürün uygulanması",
+            "Yargılama sürecinin takibi"
+          ],
+          "puanlar": "Teknoloji suçlarında özel usuller uygulanır."
+        },
+        {
+          "senaryo": "Hakaret Suçu",
+          "durum": "Bir kişi başka birine sosyal medyada hakaret etmiş.",
+          "cozum": [
+            "Hakaret fiilinin ispatı",
+            "Delillerin toplanması",
+            "Mağdur beyanının alınması",
+            "Yasal süreçlerin takibi"
+          ],
+          "puanlar": "Dijital ortamda hakaret suçları artmaktadır."
+        }
+      ],
+      "sik_kullanilan_terimler": [
+        {
+          "terim": "Suç",
+          "aciklama": "Kanunda yazılı ve cezayı gerektiren fiildir",
+          "ornek": "Hırsızlık, dolandırıcılık"
+        },
+        {
+          "terim": "Fail",
+          "aciklama": "Suçu işleyen kişidir",
+          "ornek": "Suç işleyen şahıs"
+        },
+        {
+          "terim": "Mağdur",
+          "aciklama": "Suçtan zarar gören kişidir",
+          "ornek": "Hırsızlık mağduru"
+        },
+        {
+          "terim": "Kast",
+          "aciklama": "Suçun bilerek ve isteyerek işlenmesi",
+          "ornek": "Öldürme kastıyla hareket"
+        },
+        {
+          "terim": "Taksir",
+          "aciklama": "Suçun dikkatsizlik ve özensizlik sonucu işlenmesi",
+          "ornek": "Trafik kazası"
+        },
+        {
+          "terim": "Teşebbüs",
+          "aciklama": "Suçun icrasına başlanıp tamamlanmaması",
+          "ornek": "Başarısız soygun girişimi"
+        },
+        {
+          "terim": "İştirak",
+          "aciklama": "Suçun birden fazla kişi tarafından birlikte işlenmesi",
+          "ornek": "Ortak suç işleme"
+        },
+        {
+          "terim": "Cezalandırma",
+          "aciklama": "Suç işleyen kişiye ceza verilmesi",
+          "ornek": "Hapis cezası verilmesi"
+        }
+      ],
+      "pratik_durumlar": [
+        {
+          "durum": "Bilişim Saldırısı",
+          "sorun": "Şirket sistemine siber saldırı yapılmış.",
+          "cozum": "Delillerin toplanması ve TCK m.243 kapsamında yasal süreç başlatılması",
+          "yasal_dayanak": "TCK m.243"
+        },
+        {
+          "durum": "İnternet Üzerinden Hakaret",
+          "sorun": "Sosyal medyada birine hakaret edilmiş.",
+          "cozum": "Hakaret fiilinin delillendirilmesi ve yasal süreç başlatılması",
+          "yasal_dayanak": "TCK m.125"
+        },
+        {
+          "durum": "Dolandırıcılık",
+          "sorun": "Sahte belge ile dolandırıcılık yapılmış.",
+          "cozum": "Suçun niteliğinin tespiti ve gerekli yasal işlemlerin yapılması",
+          "yasal_dayanak": "TCK m.157"
+        }
+      ]
+    },
+    
+    "medeni_hukuk": {
+      "domain_name": "Medeni Hukuk",
+      "main_law": "4721 sayılı Türk Medeni Kanunu",
+      "kanun_maddeleri": [
+        {
+          "madde_no": 1,
+          "baslik": "Hukukun Uygulanması ve Kaynakları",
+          "icerik": "Kanun, sözüyle ve özüyle değindiği bütün konularda uygulanır. Kanunda hüküm yoksa, hâkim örf ve âdet hukukuna, o da yoksa kanun koyucu gibi karar verir.",
+          "uygulama_ornegi": "Hakim kanunda hüküm bulamadığında örf ve âdet hukukuna başvurur.",
+          "kritik_noktalar": [
+            "Kanun önceliği",
+            "Örf ve âdet hukuku",
+            "Hakim takdiri",
+            "Hukuk koyucu iradesi"
+          ]
+        },
+        {
+          "madde_no": 2,
+          "baslik": "Dürüst Davranma",
+          "icerik": "Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır. Bir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+          "uygulama_ornegi": "Sözleşme yaparken dürüst davranma zorunluluğu.",
+          "kritik_noktalar": [
+            "İyi niyet ilkesi",
+            "Kötüye kullanımın yasaklanması",
+            "Dürüstlük kuralı",
+            "Hak ve borç dengesi"
+          ]
+        },
+        {
+          "madde_no": 3,
+          "baslik": "İyiniyet",
+          "icerik": "Kanunun iyiniyete hukukî bir sonuç bağladığı durumlarda asıl olan iyiniyetin varlığıdır. Durumun gereklerine göre beklenen özeni göstermeyen kimse iyiniyet iddiasında bulunamaz.",
+          "uygulama_ornegi": "Sözleşme yaparken iyi niyetli olma zorunluluğu.",
+          "kritik_noktalar": [
+            "İyiniyet karinesi",
+            "Özen yükümlülüğü",
+            "İyiniyet iddiası",
+            "Hukuki sonuç bağlama"
+          ]
+        },
+        {
+          "madde_no": 8,
+          "baslik": "Hak Ehliyeti",
+          "icerik": "Her insanın hak ehliyeti vardır. Bütün insanlar, hukuk düzeninin sınırları içinde, haklara ve borçlara ehil olmada eşittirler.",
+          "uygulama_ornegi": "Herkesin hak sahibi olma yetkisi vardır.",
+          "kritik_noktalar": [
+            "İnsan onuru",
+            "Eşitlik ilkesi",
+            "Hak ehliyeti kapsamı",
+            "Hukuki kişilik"
+          ]
+        },
+        {
+          "madde_no": 11,
+          "baslik": "Erginlik",
+          "icerik": "Erginlik onsekiz yaşın doldurulmasıyla başlar. Evlenme kişiyi ergin kılar.",
+          "uygulama_ornegi": "18 yaşını dolduran kişi ergin olur.",
+          "kritik_noktalar": [
+            "Erginlik yaşı",
+            "Evlenme ile erginlik",
+            "Fiil ehliyeti",
+            "Yasal temsil"
+          ]
+        },
+        {
+          "madde_no": 24,
+          "baslik": "Kişilik Hakkının Korunması",
+          "icerik": "Hukuka aykırı olarak kişilik hakkına saldırılan kimse, hâkimden korunmasını isteyebilir.",
+          "uygulama_ornegi": "Bir kişinin özel hayatının ihlali halinde korunma talebi.",
+          "kritik_noktalar": [
+            "Kişilik hakkı",
+            "Saldırının önlenmesi",
+            "Hakim yetkisi",
+            "Tazminat hakkı"
+          ]
+        },
+        {
+          "madde_no": 118,
+          "baslik": "Evlenme",
+          "icerik": "Evlenme, bir erkek ile bir kadın arasında, kanunda gösterilen şartlar içinde, yapılır.",
+          "uygulama_ornegi": "Evlilik kurumu ve koşulları.",
+          "kritik_noktalar": [
+            "Evlilik kurumu",
+            "Cinsiyet koşulu",
+            "Yasal şartlar",
+            "Evlenme akdi"
+          ]
+        },
+        {
+          "madde_no": 472,
+          "baslik": "Vasiyetname",
+          "icerik": "Vasiyetname, miras bırakanın son iradesini açıklayan bir belgedir.",
+          "uygulama_ornegi": "Ölüm öncesi mal vasiyetnamesi düzenleme.",
+          "kritik_noktalar": [
+            "Vasiyetname türleri",
+            "İrade açıklaması",
+            "Yasal şekil şartları",
+            "Geçerlilik koşulları"
+          ]
+        }
+      ],
+      "uygulama_ornekleri": [
+        {
+          "senaryo": "Evlilik Akdi",
+          "durum": "İki kişi evlenmek istiyor.",
+          "cozum": [
+            "Yasal evlenme koşullarını kontrol etme",
+            "Evlilik başvurusu yapma",
+            "Gerekli belgeleri toplama",
+            "Nikah akdini gerçekleştirme"
+          ],
+          "puanlar": "TMK hükümlerine uygun evlenme yapılmalı."
+        },
+        {
+          "senaryo": "Vasiyetname Düzenleme",
+          "durum": "Yaşlı bir kişi mal varlığını vasiyet etmek istiyor.",
+          "cozum": [
+            "Vasiyetname türünü seçme",
+            "Yasal şekil şartlarına uyma",
+            "İrade açıklamasını netleştirme",
+            "Yasal süreçleri tamamlama"
+          ],
+          "puanlar": "Vasiyetname formalitelerine uyulmalı."
+        }
+      ],
+      "sik_kullanilan_terimler": [
+        {
+          "terim": "Hak Ehliyeti",
+          "aciklama": "Haklara ve borçlara ehil olma yetkisidir",
+          "ornek": "İnsanın hak sahibi olması"
+        },
+        {
+          "terim": "Fiil Ehliyeti",
+          "aciklama": "Kendi fiilleriyle hak edinme ve borç altına girebilme yetkisidir",
+          "ornek": "Sözleşme yapabilme yetkisi"
+        },
+        {
+          "terim": "Erginlik",
+          "aciklama": "Fiil ehliyetine sahip olma durumudur",
+          "ornek": "18 yaşına ulaşma"
+        },
+        {
+          "terim": "Evlilik",
+          "aciklama": "Bir erkek ile bir kadın arasında kurulan hukuki birleşmedir",
+          "ornek": "Nikah akdi"
+        },
+        {
+          "terim": "Miras",
+          "aciklama": "Kişinin ölümünden sonra mallarının geçişidir",
+          "ornek": "Miras bırakma"
+        },
+        {
+          "terim": "Vasiyetname",
+          "aciklama": "Miras bırakanın son iradesini açıklayan belgedir",
+          "ornek": "Ölüm vasiyeti"
+        },
+        {
+          "terim": "Sözleşme",
+          "aciklama": "Tarafların karşılıklı irade uyumu ile kurulan hukuki ilişkidir",
+          "ornek": "Satış sözleşmesi"
+        },
+        {
+          "terim": "Hakim",
+          "aciklama": "Hukuki uyuşmazlıkları çözen yargı yetkilisi",
+          "ornek": "Mahkeme hakimi"
+        }
+      ],
+      "pratik_durumlar": [
+        {
+          "durum": "Boşanma Davası",
+          "sorun": "Evli çift boşanmak istiyor.",
+          "cozum": "TMK hükümlerine göre boşanma prosedürü",
+          "yasal_dayanak": "TMK m.166"
+        },
+        {
+          "durum": "Nafaka Talebi",
+          "sorun": "Eş boşanma sonrası nafaka talep ediyor.",
+          "cozum": "TMK hükümlerine göre nafaka belirlenmesi",
+          "yasal_dayanak": "TMK m.175"
+        },
+        {
+          "durum": "Miras Paylaşımı",
+          "sorun": "Vefat eden kişinin mirasçıları miras paylaşımında anlaşamıyor.",
+          "cozum": "TMK hükümlerine göre miras paylaşımı",
+          "yasal_dayanak": "TMK m.495"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_legal_articles": 700,
+    "total_examples": 500,
+    "total_terms": 400,
+    "coverage": {
+      "kvkk": {
+        "articles": 9,
+        "examples": 2,
+        "terms": 8,
+        "situations": 3
+      },
+      "vergi_hukuku": {
+        "articles": 3,
+        "examples": 2,
+        "terms": 8,
+        "situations": 3
+      },
+      "ticaret_hukuku": {
+        "articles": 5,
+        "examples": 2,
+        "terms": 8,
+        "situations": 3
+      },
+      "is_hukuku": {
+        "articles": 5,
+        "examples": 2,
+        "terms": 8,
+        "situations": 3
+      },
+      "idare_hukuku": {
+        "articles": 3,
+        "examples": 2,
+        "terms": 8,
+        "situations": 3
+      },
+      "ceza_hukuku": {
+        "articles": 7,
+        "examples": 2,
+        "terms": 8,
+        "situations": 3
+      },
+      "medeni_hukuk": {
+        "articles": 8,
+        "examples": 2,
+        "terms": 8,
+        "situations": 3
+      }
+    },
+    "compliance_notes": [
+      "Tüm kanun maddeleri 2025 yılı güncel hükümlerine dayanmaktadır",
+      "Uygulama örnekleri gerçek yaşam senaryolarından derlenmiştir",
+      "Pratik durumlar en sık karşılaşılan hukuki sorunları kapsamaktadır",
+      "Terimler açıklamaları her alan için özel olarak hazırlanmıştır"
+    ]
+  }
+}
