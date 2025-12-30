@@ -195,27 +195,11 @@ async def debug_test():
     return {"message": "FastAPI routes working", "debug": True}
 
 # --- Supabase Edge Function Replacement Endpoint ---
-@app.api_route("/api/legal-search", methods=["GET", "POST"])
-async def search_legal_documents_v2(request: Request, payload: SearchQuery = None):
-    """
-    Simpler endpoint for checking connectivity and performing search.
-    Support GET for browser test, POST for app.
-    """
-    keyword = ""
-    if request.method == "POST":
-        if payload:
-            keyword = payload.query
-        else:
-            # Try parsing body manually if payload is None
-            try:
-                data = await request.json()
-                keyword = data.get("query", "")
-            except:
-                pass
-    else: # GET
-        keyword = request.query_params.get("query", "")
+# --- Supabase Edge Function Replacement Endpoint ---
 
-    logger.info(f"Compatibility Search Request received (v2): {keyword}")
+# Common logic for search
+async def _execute_search(keyword: str):
+    logger.info(f"Compatibility Search Request received (v3): {keyword}")
     
     if not keyword:
          return {"results": [], "message": "No query provided", "debug": "API is reachable"}
@@ -247,36 +231,54 @@ async def search_legal_documents_v2(request: Request, payload: SearchQuery = Non
                     })
     except Exception as e:
         logger.error(f"Bedesten Error: {e}")
+        # Continue to Yargitay if Bedesten fails
 
-    # 2. Yargıtay Araması (Fallback)
-    if not results and keyword:
+    # 2. Yargitay Official Araması (Fallback)
+    if not results:
         try:
-            logger.info("Yargitay Official API (Fallback) search...")
-            # Fallback durumunda daha geniş arama
-            yargitay_req = YargitayDetailedSearchRequest(arananKelime=keyword, pageNumber=1)
-            yargitay_resp = await yargitay_client_instance.search_detailed_decisions(yargitay_req)
-            
-            if yargitay_resp and yargitay_resp.data and yargitay_resp.data.data:
-                for item in yargitay_resp.data.data:
-                    results.append({
-                        "id": str(item.id),
-                        "title": f"Yargıtay Kararı - {item.daire}",
-                        "content": f"Esas: {item.esasNo}, Karar: {item.kararNo}, Tarih: {item.kararTarihi}",
-                        "url": getattr(item, 'document_url', None),
-                        "source": "Yargitay",
-                        "metadata": {
-                                "daire": item.daire,
-                                "esasNo": item.esasNo,
-                                "kararNo": item.kararNo,
-                                "tarih": item.kararTarihi
-                        }
-                    })
+             if 'yargitay_client_instance' in globals() and yargitay_client_instance:
+                logger.info("Yargitay Official API search...")
+                yargitay_req = YargitayDetailedSearchRequest(arananKelime=keyword)
+                yargitay_resp = await yargitay_client_instance.search_decisions(yargitay_req)
+                
+                if yargitay_resp and yargitay_resp.data:
+                    for item in yargitay_resp.data:
+                         results.append({
+                            "id": str(item.detayId),
+                            "title": f"{item.daire} Kararı",
+                             "content": f"Esas: {item.esasNo}, Karar: {item.kararNo}, Özet: {item.kisaOzet or 'Özet yok'}",
+                             "url": f"https://karararama.yargitay.gov.tr/getDokuman?id={item.detayId}", # Tahmini URL
+                             "source": "Mevzuat (Yargitay)",
+                             "metadata": item.model_dump()
+                         })
         except Exception as e:
             logger.error(f"Yargitay Error: {e}")
 
-    return {"results": results, "count": len(results)}
+    return {
+        "results": results, 
+        "count": len(results),
+        "debug_info": {
+            "source": "python_backend_v3",
+            "bedesten": 'bedesten_client_instance' in globals(),
+            "yargitay": 'yargitay_client_instance' in globals()
+        }
+    }
 
-# --- End Supabase Replacement ---
+@app.get("/api/legal-search")
+async def search_legal_documents_get(query: str = Query(None, description="Search keyword")):
+    """
+    GET endpoint for legal search (Browser/Testing friendly).
+    Usage: /api/legal-search?query=tazminat
+    """
+    return await _execute_search(query or "")
+
+@app.post("/api/legal-search")
+async def search_legal_documents_post(payload: SearchQuery):
+    """
+    POST endpoint for legal search (Application usage).
+    """
+    return await _execute_search(payload.query)
+
 
 # Clerk CORS proxy endpoints
 @app.api_route("/clerk-proxy/{path:path}", methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])
